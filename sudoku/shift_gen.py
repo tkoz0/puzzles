@@ -73,4 +73,16 @@ def make_sudoku(R,C): # generalized from the function above
 
 #for line in make3x3(): print(line)
 import sys
-for line in make_sudoku(int(sys.argv[1]),int(sys.argv[2])): print(line)
+R, C = int(sys.argv[1]), int(sys.argv[2])
+S = make_sudoku(R,C)
+check_solved(S,R,C)
+if R*C >= 36: # not formatted nicely
+    for line in S: print(line)
+else: # format nicely as 1 letter for each
+    def to_letter(i): return '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'[i]
+    row_sep = '+' + '+'.join(['-'*(2*C+1)]*R) + '+'
+    for rr in range(C):
+        print(row_sep)
+        for r in range(rr*R,rr*R+R):
+            print('| '+' | '.join(' '.join(map(to_letter,S[r][cc*C:cc*C+C])) for cc in range(R))+' |')
+    print(row_sep)
