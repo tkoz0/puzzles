@@ -89,6 +89,20 @@ and all white cells must remain connected. (For instance, if the black cell in
 the bottom row were moved one cell to the right, it would cut off the white area
 in the lower right from the rest of the grid.)
 
+Left: rooms as regions of the same symbol
+Middle: provided numbers
+Right: shaded cells
+
++-------+ +-------+ +-------+
+|@##@@##| |2  2 1 | |#   # #|
+|@##@@##| |       | |   #   |
+|@$$##@@| |   0 3 | |#    # |
+|#$$##@@| |       | |  #   #|
+|#@@##@@| |       | | #   # |
+|#@@$$##| |     0 | |#   #  |
+|#@@$$##| |       | |  #    |
++-------+ +-------+ +-------+
+
 +======+
 | Lits |
 +======+
@@ -98,6 +112,19 @@ touch along an edge. (They may touch at a corner.) Shapes with the same letter
 are identical, no matter how they are reflected or rotated.
 3. The shaded cells must all be connected to each other.
 4. No 2x2 square of cells may be entirely shaded.
+
+Left: regions as connected area of the same symbol
+Right: shaded cells
+
++-------+ +-------+
+|@@#@@@@| |### ###|
+|@###@$$| |# ### #|
+|@%%#$$$| |#  # ##|
+|#$%%%@$| | #### #|
+|#$$%@@@| | # # ##|
+|#$$@@@@| | ##   #|
+|######@| |  #####|
++-------+ +-------+
 
 +=======+
 | Masyu |
@@ -112,6 +139,19 @@ white circle in the path.
 must go straight through both cells immediately before and after the black
 circle in the path.
 
+Left: white circles as O and black circles as @
+Right: the path, directed counterclockwise with symbols <>^v
+
++-------+ +-------+
+|@      | |v<<  v<|
+|   OO O| |v ^<<<^|
+|O @ O  | |v >>>v^|
+|       | |>v^ v<^|
+|      @| |v<^<>>^|
+|O      | |v>v^<< |
+|   OO  | |>^>>>^ |
++-------+ +-------+
+
 +==========+
 | Nurikabe |
 +==========+
@@ -124,25 +164,72 @@ one number.
 4. The black cells must form a single continuous region.
 5. No 2x2 square of cells may be entirely shaded black.
 
+Numbered cell: digit
+Black cells: #
+
++-------+ +-------+
+|4 4   2| |4#4 # 2|
+|       | | ## ###|
+|       | |  # # #|
+|       | |##### #|
+|2      | |2 # # #|
+|     4 | |### #4#|
+| 2  4  | | 2# 4##|
++-------+ +-------+
+
 +============+
 | Shakashaka |
 +============+
 1. Shade in some cells with black triangles according to the following rules.
 2. Triangles may be placed (in white cells only) in one of four orientations:
 +--+ +--+ +--+ +--+
-|\ | |*/| |\*| | /|
-|*\| |/ | | \| |/*|
+|\ | |#/| |\#| | /|
+|#\| |/ | | \| |/#|
 +--+ +--+ +--+ +--+
 3. The parts of the grid that remain white (uncovered by black triangles) must
 always form a rectangle.
 4. A numbered cell indicates how many black triangles are horizontally and
 vertically adjacent to it.
 
+For this ASCII art, each 2x2 area represents a cell
+Number filled cells are the provided numbered black cells
+The other notwhite cells are filled in with one of the triangle orientations
+
++--------------+ +--------------+
+|22    22      | |22#/\#22#/\#  |
+|22    22      | |22/  \22/  \  |
+|              | |#/   /  \  /  |
+|              | |/   /#  #\/#  |
+|              | |\  /#/\##/\#  |
+|              | |#\/#/  \/  \  |
+|1133          | |1133\  /\  /  |
+|1133          | |1133#\/##\/#  |
+|      33  1100| |  #/\#33  1100|
+|      33  1100| |  /  \33  1100|
+|              | |#/   /#/\#    |
+|              | |/   /#/  \    |
+|    33        | |\  /33\  /    |
+|    33        | |#\/#33#\/#    |
++--------------+ +--------------+
+
 +=========+
 | Shikaku |
 +=========+
 1. Divide the grid into rectangles, each containing exactly one number.
 2. A rectangle's number must be equal to the area of that rectangle.
+
+Left: provided numbered cells, the * means 10 in this example
+Right: divided regions
+
++-------+ +-------+
+|5   *  | |@#####@|
+|      4| |@#####@|
+|   6   | |@$%%%$@|
+| 3   2 | |@$%%%$@|
+|   4   | |@$@####|
+|4      | |##@$$$$|
+|  3   8| |##@$$$$|
++-------+ +-------+
 
 +=============+
 | Slitherlink |
@@ -151,6 +238,29 @@ vertically adjacent to it.
 loop that never crosses or touches itself.
 2. A numbered cell indicates how many lines surround it; empty cells may be
 surrounded by any number of lines.
+
+Provided numbers are the digits in the center of 4 dots on the grid
+The solution path is represented by - and | connecting the dots
+
++-----------------+ +-----------------+
+|                 | |                 |
+| . . . . . . . . | | . .-.-.-.-.-.-. |
+|  1     2   1 3  | |  1|    2   1 3| |
+| . . . . . . . . | | . .-.-.-.-. .-. |
+|  0   2          | |  0   2    | |   |
+| . . . . . . . . | | . . .-. .-. .-. |
+|      3   3 0    | |     |3| |3 0  | |
+| . . . . . . . . | | .-.-. . .-. . . |
+|  3     2     1  | | |3    |2  |  1| |
+| . . . . . . . . | | .-.-. .-.-. . . |
+|    3 1   2      | |    3|1   2    | |
+| . . . . . . . . | | . .-. .-.-. .-. |
+|          2   3  | |   |   |  2| |3  |
+| . . . . . . . . | | . .-. .-. . .-. |
+|  0 2   3     3  | |  0 2|  3| |  3| |
+| . . . . . . . . | | . . .-.-. .-.-. |
+|                 | |                 |
++-----------------+ +-----------------+
 
 +==========+
 | Suraromu |
@@ -166,6 +276,21 @@ For example, a gate labeled "1" must be the first gate passed through (in either
 direction) from the circled number. A gate with no number may be crossed at any
 point.
 
+Left: # are black cells, - and | indicate gates, the numbers adjacent to gates
+should also have arrows pointing toward the gate, the X is the starting number,
+in this case the X represents the circled 4
+Right: counterclockwise oriented path with the symbols <>^v
+
++-------+ +-------+
+|     | | | v<<<<<|
+|#--# # | | v    ^|
+|   X   | |v<>v >^|
+| #  # #| |v ^v ^ |
+| 4     | |v ^>v^<|
+| | 1-1 | |>>^ v ^|
+|#4     | |    >>^|
++-------+ +-------+
+
 +=========+
 | Yajilin |
 +=========+
@@ -176,3 +301,17 @@ cell twice.
 the edge of the grid, in the direction of the arrow.
 3. Shaded cells may not be horizontally or vertically adjacent to each other.
 4. The path must pass through every cell that isn't shaded in or numbered.
+
+Left: cell numbers
+Middle: cell directions with <>^v
+Right: # for black cells and counterclockwise oriented path with symbols <>^v
+
++-------+ +-------+ +-------+
+|       | |       | |v<#v<<#|
+|  1    | |  ^    | |v^1>v^<|
+|       | |       | |v^<<<>^|
+| 1 2   | | v >   | |v1#2#^#|
+|       | |       | |v#>>v^<|
+|       | |       | |>v^#v>^|
+|0  1  2| |>  ^  ^| |0>^1>^2|
++-------+ +-------+ +-------+
