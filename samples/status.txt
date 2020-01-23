@@ -1,0 +1,47 @@
+Akari
+- encoded 2/8
+- verified 0/8
+
+Fillomino
+- encoded 0/8
+- verified 0/8
+
+Hashiwokakero
+- encoded 0/8
+- verified 0/8
+
+Heyawake
+- encoded 0/8
+- verified 0/8
+
+Lits
+- encoded 0/8
+- verified 0/8
+
+Masyu
+- encoded 0/8
+- verified 0/8
+
+Nurikabe
+- encoded 0/8
+- verified 0/8
+
+Shakashaka
+- encoded 0/8
+- verified 0/8
+
+Shikaku
+- encoded 0/8
+- verified 0/8
+
+Slitherlink
+- encoded 0/8
+- verified 0/8
+
+Suraromu
+- encoded 0/8
+- verified 0/8
+
+Yajilin
+- encoded 0/8
+- verified 0/8
