@@ -1,5 +1,5 @@
 Akari
-- encoded 2/8
+- encoded 3/8
 - verified 0/8
 
 Fillomino
