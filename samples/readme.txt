@@ -41,6 +41,8 @@ Numbered cell: digit
 Empty cell: space
 (In solution, boundary lines around same numbered regions are not shown)
 
+Note: using hex digits (ABCDEF) for numbers 10-15. No larger numbers appear.
+
 +-------+ +-------+
 |43 6   | |4336661|
 | 5   6 | |4535266|
