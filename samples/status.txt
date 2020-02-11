@@ -7,7 +7,7 @@ Fillomino
 - verified 0/8
 
 Hashiwokakero
-- encoded 0/8
+- encoded 8/8
 - verified 0/8
 
 Heyawake
