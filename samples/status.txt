@@ -3,7 +3,7 @@ Akari
 - verified 0/8
 
 Fillomino
-- encoded 0/8
+- encoded 2/8
 - verified 0/8
 
 Hashiwokakero
