@@ -96,6 +96,9 @@ Left: rooms as regions of the same symbol
 Middle: provided numbers
 Right: shaded cells
 
+Note: The rooms are shown first, followed by the numbers after a hyphen line
+(the 2 parts below with a hyphen line between them).
+
 +-------+ +-------+ +-------+
 |@##@@##| |2  2 1 | |#   # #|
 |@##@@##| |       | |   #   |
