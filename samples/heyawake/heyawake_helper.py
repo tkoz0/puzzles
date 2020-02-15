@@ -28,7 +28,9 @@ def get_box_dims(stdscr,y,x):
     except:
         try: r,c,n = map(int,s.split())
         except: raise Exception()
-    assert -1 <= n <= 9 # -1 for unspecified, 0-9 for numbers, no larger appear
+    assert -1 <= n <= 9 # -1 for unspecified, 0-9 for numbers
+    # does not support larger numbers, special cases were handled separately
+    # the only exceptions were 11 and 12 (B and C) in the last puzzle
     assert r > 0 and c > 0
     return (r,c,n)
 

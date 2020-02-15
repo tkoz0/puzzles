@@ -97,7 +97,8 @@ Middle: provided numbers
 Right: shaded cells
 
 Note: The rooms are shown first, followed by the numbers after a hyphen line
-(the 2 parts below with a hyphen line between them).
+(the 2 parts below with a hyphen line between them). For numbers >9, use digits
+A-F for 10-15 and continue alphabet.
 
 +-------+ +-------+ +-------+
 |@##@@##| |2  2 1 | |#   # #|

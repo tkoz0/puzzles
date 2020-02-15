@@ -11,7 +11,7 @@ Hashiwokakero
 - verified 0/8
 
 Heyawake
-- encoded 4/8
+- encoded 8/8
 - verified 0/8
 
 Lits
