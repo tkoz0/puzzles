@@ -9,6 +9,14 @@ driver = webdriver.Firefox()
 outNoFile = open('puzzle_pages_error.txt','w')
 outYesFile = open('puzzle_pages_lists.txt','w')
 
+def getPageLinks(base_page):
+    puzElement = base_page.find(id='index-1')
+    if not puzElement: # cannot extract
+        return None
+    else: # find href of all a tags
+        links = [x['href'] for x in puzElement.find_all('a')]
+        return None if links == [] else links
+
 for line in open('puzzle_bases.txt'): # each line should have a url
 
     sys.stderr.write(line)
@@ -28,15 +36,12 @@ for line in open('puzzle_bases.txt'): # each line should have a url
     # load page and extract the urls
     driver.get(line[:-1])
     bs4page = BeautifulSoup(driver.page_source,'html.parser')
-    # should be a div with a list of all the puzzles
-    puzElement = bs4page.find(id='index-1')
-    
-    if not puzElement: # cannot find link list to extract
-        outNoFile.write(line)
-    else: # collect all puzzle links
-        puzLinks = [x['href'] for x in puzElement.find_all('a')]
-        outYesFile.write('base_url %s\n'%puzName)
-        for url in puzLinks:
-            outYesFile.write('page_url %s\n'%url)
+    links = getPageLinks(bs4page)
+    if links:
+        outYesFile.write('begin %s\n'%puzName)
+        for url in links:
+            outYesFile.write(url+'\n')
+        outYesFile.write('end %s\n'%puzName)
+    else: outNoFile.write(line)
 
 driver.quit()
