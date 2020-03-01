@@ -33,24 +33,36 @@ driver = webdriver.Firefox()
 def extractData(page,fdir,puz):
     assert page.endswith('.htm')
     fileName = page[:-4]+'.txt'
+    print('download started: %s'%(puz+'/'+page))
     if os.path.isfile(fdir+fileName):
-        print('already downloaded: %s'%(fdir+fileName))
+        print('- already downloaded')
         return # already downloaded
     global driver,puzBaseUrl
-    driver.get(puzBaseUrl+puz+'/'+page)
+    # try up to 5 times to download page
+    successful = False
+    for _ in range(5):
+        try:
+            driver.get(puzBaseUrl+puz+'/'+page)
+            successful = True
+            break
+        except:
+            continue
+    if not successful:
+        print('- download failed')
+        return
     bs4page = BeautifulSoup(driver.page_source,'html.parser')
     data = bs4page.find(id='data')
     if data: # found data, take contents
         outFile = open(fdir+fileName,'w')
         outFile.write(data.decode_contents())
         outFile.close()
-        print('successfully downloaded: %s'%(fdir+fileName))
+        print('- successfully saved to: %s'%(fdir+fileName))
     else: # expect a page listing many puzzles
-        print('download unsupported: %s'%(fdir+fileName))
+        print('- download unsupported')
 
-for puz in linkData.keys():
+for puz in sorted(linkData.keys()):
     makeDir('puzzles/'+puz+'/') # make dir to story files
-    for page in linkData[puz]:
+    for page in sorted(linkData[puz]):
         extractData(page,'puzzles/'+puz+'/',puz)
 
 driver.close()
