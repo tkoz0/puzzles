@@ -1,0 +1,321 @@
+/* ******************************** */
+/* Common styles for www.janko.at   */
+/* ******************************** */
+
+@import "Styles1.css";
+
+/* ******************************** */
+/* Section specific styles          */
+/* ******************************** */
+
+@media print  { header, .head1, .head2   { display: none; } }
+@media print  { nav, .navi               { display: none; } }
+
+@media screen { #image  { display: none; } }
+@media print  { #applet { display: none; } }
+
+@media screen { .sol    { display: none; } }
+@media screen { .hint   { display: none; } }
+
+.diag2 img    { vertical-align: bottom; margin-right: 1em; margin-top: 1em; }
+.diag3 img    { vertical-align: bottom; margin-right: 1em; margin-top: 1em; }
+
+@media print  {
+.diag2 img    { width: 40%; height: auto; }
+.diag3 img    { width: 30%; height: auto; } }
+
+.example
+{
+  float: right;
+  margin-top: 0em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+body.apps .example
+{
+  float: none;
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-bottom: 0em;
+}
+
+.author-image
+{
+  float: left;
+  margin-right: 1em;
+}
+body.app .author-image
+{
+  float: right;
+  margin-left: 1em;
+}
+
+body.framed { margin: 0px; padding: 0px;}
+body.framed header  {display: none;}
+body.framed #title  {display: none;}
+body.framed #menu-0 {display: none;}
+body.framed #menu-1 {display: block;}
+body.framed #menu-2 {display: none;}
+body.framed #menu-3 {display: none;}
+body.framed #menu-4 {display: none;}
+body.framed #menu-5 {display: none;}
+
+/* ******************************** */
+/* Rätselgedichte                   */
+/* ******************************** */
+
+/* title of a riddle */
+
+H5         { font-weight: normal; font-variant: small-caps; font-size: 115%; }
+xH5:before { content:"Ã‚Â»" }
+xH5:after  { content:"Ã‚Â«" }
+
+/* reset all floats */
+
+div.reset { clear: both; line-height: 1px; }
+
+/* annotations */
+
+.solref
+{
+  color: rgb(204,51,51);
+  font-weight: bold;
+  font-size: 80%;
+  position: relative;
+  top: -0.1em;
+}
+
+.ask
+{
+  color: rgb(155,0,0);
+  font-style: italic;
+}
+
+/* table of riddles on an author's page */
+
+table.gtab th:nth-child(1), table.gtab td:nth-child(1),
+table.gtab th:nth-child(3), table.gtab td:nth-child(3),
+table.gtab th:nth-child(4), table.gtab td:nth-child(4),
+table.gtab th:nth-child(5), table.gtab td:nth-child(5),
+table.gtab th:nth-child(6), table.gtab td:nth-child(6),
+table.gtab th:nth-child(7), table.gtab td:nth-child(7)
+{
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* formatting of book microdata */
+
+div.bimg1 { float: left; align: left; margin-right: 15px; margin-bottom: 10px;}
+div.btxt1 {  }
+div.btxt1 p.abstract { padding-top: 4px; }
+div.rtxt1 { font-style: italic; }
+div.btxt1 h4 { margin-top: -4pt; }
+
+div.bimg { float: left; }
+div.btxt { margin-left: 120px; margin-right: 0px; }
+div.rtxt { font-style: italic; }
+div.btxt h4 { margin-top: 0; }
+
+body.apps div.bimg { float: right; }
+body.apps div.btxt { margin-left: 0px; margin-right: 120px; }
+
+/* ******************************** */
+/* Tabs                             */
+/* ******************************** */
+
+/* why this? */
+menu { margin: 0; padding: 0; }
+
+/* why this? */
+body.apps #index-0-tab { display: block; }
+
+.tabs
+{
+  padding-bottom: 3pt;
+  padding-right: 1em;
+  border-bottom: 1px solid rgb(190,170,150);
+}
+
+.tab-a
+{
+  outline: none;
+  font-Weight: bold;
+  padding: 1px 5px 5px 5px;
+  border-top: 1px solid rgb(190,170,150);
+  border-left: 1px solid rgb(190,170,150);
+  border-right: 1px solid rgb(190,170,150);
+  border-radius: 3px 3px 0px 0px;
+  background-color: rgb(240,230,210);
+}
+
+.tab-i
+{
+  padding: 1px 5px 3px 5px;
+  border-top: 1px solid rgb(190,170,150);
+  border-left: 1px solid rgb(190,170,150);
+  border-right: 1px solid rgb(190,170,150);
+  border-radius: 3px 3px 0px 0px;
+}
+
+.tab-c
+{
+  margin-top: 4px;
+  padding-top: 1em;
+}
+
+/* ******************************** */
+/* Color schema                     */
+/* ******************************** */
+
+BODY
+{
+  background-color: rgb(240,230,210);
+}
+
+.mark
+{
+  background-color: rgb(255,255,153);
+}
+
+@media print {
+BODY
+{
+  background-color: rgb(255,255,255);
+  margin-left: 0; margin-right: 0;
+  font-size: 75%;
+}}
+
+A         { text-decoration: none; }
+A:link    { color: rgb(  0,0,153); }
+A:visited { color: rgb(153,0,153); }
+A:hover   { color: rgb(222,0,  0);
+            background-color: rgb(255,255,255); }
+
+.head A:hover, .head1 A:hover, .head2 A:hover
+{
+  background-color: rgb(240,230,210);
+  text-decoration: none;
+}
+
+@media print {
+A, A:link, A:visited, A:hover {
+  color: rgb(0,0,0);
+  text-decoration: none;
+}}
+
+INPUT:focus
+{
+  border-color: rgb(255,0,0);
+  background-color: rgb(255,255,255);
+}
+
+h1, h2, h3, .h1, .h2, .h3, .title, .abstract
+        { color: rgb(102,51,0); }
+.head   { color: rgb(102,102,102); }
+.ins    { color: rgb(255,0,0); }
+.del    { color: rgb(0,0,255); }
+
+.navi, .boxed, .copyright, .copyright1, DIV.impressum
+        { border-color: rgb(190,170,150); }
+.zitat  { border-color: rgb(153,153, 153); }
+.note   { border-color: rgb(153,0,51); }
+.sv     { background-color: rgb(255,255,180); }
+
+.boxed, .navi, .key, #navbar,
+TABLE.sortable TH,
+TABLE.shaded TD, TD.shaded,
+TABLE.scores TD, TD.scores,
+DIV.impressum
+{
+  background-color: rgb(230,220,190);
+}
+TABLE.shaded TH, TH.shaded,
+TABLE.scores TH, TH.scores,
+HR
+{
+  background-color: rgb(210,190,170);
+}
+TABLE.shaded, TABLE.shaded TH, TABLE.shaded TD,
+TABLE.scores, TABLE.scores TH, TABLE.scores TD
+{
+  border-color: rgb(250,240,230);
+}
+TABLE.framed, TABLE.framed TH, TABLE.framed TD
+{
+  border-color: rgb(190,170,150);
+}
+
+/* ******************************** */
+/* Buttons                          */
+/* ******************************** */
+
+.button
+{
+  color: rgb(0,0,0);
+  background-Color: rgb(220,210,180);
+  border-left-Color: rgb(240,240,240);
+  border-top-Color: rgb(240,240,240);
+  border-right-Color: rgb(170,150,130);
+  border-bottom-Color: rgb(170,150,130);
+}
+
+.button:hover
+{
+  background-Color: rgb(220,210,180);
+  border-left-Color: rgb(170,150,130);
+  border-top-Color: rgb(170,150,130);
+  border-right-Color: rgb(255,255,255);
+  border-bottom-Color: rgb(255,255,255);
+}
+
+.button:visited, A.button:link, A.button:active
+{
+  color: rgb(0,0,0);
+}
+
+/* ******************************** */
+/* Navigation                       */
+/* ******************************** */
+
+.navi
+{
+  text-align: right;
+  line-height: 1.6em;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  margin:  0.0em 0.0em 0.0em 0.0em;
+  border-color: rgb(240,230,210);
+  background-color: rgb(240,230,210); /* fÃ¼r alte browser */
+  background-image: -webkit-linear-gradient(top, rgb(240,230,210) 0%, rgb(190,170,150) 45%, rgb(190,170,150) 55%, rgb(240,230,210) 100%); /* Chrome10+,Safari5.1+ */
+  background-image: -moz-linear-gradient(top,    rgb(240,230,210) 0%, rgb(190,170,150) 45%, rgb(190,170,150) 55%, rgb(240,230,210) 100%); /* FF3.6+ */
+  background-image: -ms-linear-gradient(top,     rgb(240,230,210) 0%, rgb(190,170,150) 45%, rgb(190,170,150) 55%, rgb(240,230,210) 100%); /* IE10+ */
+  background-image: -o-linear-gradient(top,      rgb(240,230,210) 0%, rgb(190,170,150) 45%, rgb(190,170,150) 55%, rgb(240,230,210) 100%); /* Opera 11.10+ */
+  background-image: linear-gradient(to bottom,   rgb(240,230,210) 0%, rgb(190,170,150) 45%, rgb(190,170,150) 55%, rgb(240,230,210) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0e6d2', endColorstr='#beaa96',GradientType=0 ); /* IE6-9 */
+}
+
+.navi a
+{
+  background-color: #F7F7F7;
+  background-image: -webkit-linear-gradient(rgba(255,255,255,.4),rgba(127,127,127,.2));
+  background-image: -moz-linear-gradient(rgba(255,255,255,.4),rgba(127,127,127,.2));
+  background-image: -ms-linear-gradient(rgba(255,255,255,.4),rgba(127,127,127,.2));
+  background-image: -o-linear-gradient(rgba(255,255,255,.4),rgba(127,127,127,.2));
+  background-image: linear-gradient(rgba(255,255,255,.4),rgba(127,127,127,.2));
+  border: 1px solid;
+  border-radius: 0.6em;
+  border-color: #DDD #AAA #888 #CCC;
+  padding: 0.1em 0.4em 0.1em 0.4em;
+  text-shadow: 0 1px rgba(255,255,255,0.5);
+  white-space: nowrap;
+  font-size: 90%;
+}
+
+/* ******************************** */
+/* THE END                          */
+/* ******************************** */
