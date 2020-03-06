@@ -1,0 +1,246 @@
+Spiele/
+    ../Shariff/shariff.complete.js
+    Scripts.js
+Spiele/Battleships/
+    Battleships.jar
+    https://www.janko.at/Spiele/Battleships/Battleships.class
+Spiele/Blackbox/
+    BlackBoxMake.jar
+    https://www.janko.at/Spiele/Blackbox/BlackBoxMake.class
+Spiele/Boulderdash/
+    Boulderdash.jar
+    https://www.janko.at/Spiele/Boulderdash/Boulderdash.class
+Spiele/Boundrop/
+    Boundrop.jar
+    https://www.janko.at/Spiele/Boundrop/Boundrop.class
+Spiele/Clickmazes/
+Spiele/ColorSpreading/
+    ColorSpreading.jar
+    https://www.janko.at/Spiele/ColorSpreading/ColorSpreading.class
+Spiele/Daleks/
+    Daleks.jar
+    https://www.janko.at/Spiele/Daleks/Daleks.class
+Spiele/Eliminator/
+    Eliminator.jar
+    https://www.janko.at/Spiele/Eliminator/Eliminator.class
+Spiele/Euler/
+Spiele/Farbflutung/
+    ../Puzzle.js
+    ../Scripts.js
+    ColorFlood.js
+Spiele/Fillomino/
+    ../Puzzle.js
+    ../Scripts.js
+    Fillomino.js
+    FillominoOpt.jar
+    https://www.janko.at/Spiele/Fillomino/FillominoOpt.class
+Spiele/Gorapuru/
+    Gorapuru.jar
+    https://www.janko.at/Spiele/Gorapuru/Gorapuru.class
+Spiele/Hebi/
+    Hebi.jar
+    https://www.janko.at/Spiele/Hebi/Hebi.class
+Spiele/Iceblox/
+    Iceblox.class
+Spiele/Javanoid/
+    Javanoid.jar
+    https://www.janko.at/Spiele/Javanoid/Javanoid.class
+Spiele/JumpGame/
+    ../Puzzle.js
+    ../Scripts.js
+    JumpGame.js
+Spiele/Kipplabyrinthe/
+    ../Puzzle.js
+    ../Scripts.js
+    TiltMaze.js
+Spiele/Lizenzen/
+Spiele/Mastermind/
+    Mastermind.jar
+    https://www.janko.at/Spiele/Mastermind/Mastermind.class
+Spiele/Matrix/
+    Matrix.jar
+    https://www.janko.at/Spiele/Matrix/Matrix.class
+Spiele/Matrix2/
+    Matrix.jar
+    https://www.janko.at/Spiele/Matrix2/Matrix.class
+Spiele/Maxit/
+    Maxit.jar
+    https://www.janko.at/Spiele/Maxit/Maxit.class
+Spiele/Minotaurus/
+    ../Puzzle.js
+    ../Scripts.js
+    Minotaur.js
+Spiele/Mosaik/
+    ../Scripts.js
+    MosaikOpt.jar
+    https://www.janko.at/Spiele/Mosaik/MosaikOpt.class
+Spiele/Nibbly/
+    Nibbly.jar
+    https://www.janko.at/Spiele/Nibbly/Nibbly.class
+Spiele/PanneRotto/
+    PanneRotto.jar
+    https://www.janko.at/Spiele/PanneRotto/PanneRotto.class
+Spiele/Parkplatz/
+    ../Puzzle.js
+    ../Scripts.js
+    SlidingBlocks.js
+Spiele/Polyominos/
+    ../Scripts.js
+    Polyominos.jar
+    https://www.janko.at/Spiele/Polyominos/Polyominos.class
+Spiele/Puzzles/
+    ../Scripts.js
+    Jigsaw.jar
+    https://www.janko.at/Spiele/Puzzles/Jigsaw.class
+Spiele/Quadrato/
+    ../Scripts.js
+    Quadrato.jar
+    https://www.janko.at/Spiele/Quadrato/Quadrato.class
+Spiele/Queens/
+    Queens.jar
+    https://www.janko.at/Spiele/Queens/Queens.class
+Spiele/Rollwuerfel/
+    ../Scripts.js
+    Rollwuerfel.jar
+    https://www.janko.at/Spiele/Rollwuerfel/Rollwuerfel.class
+Spiele/Rotaro/
+    Rotaro.jar
+    https://www.janko.at/Spiele/Rotaro/Rotaro.class
+Spiele/Rundherum/
+    RoundAround.jar
+    https://www.janko.at/Spiele/Rundherum/RoundAround.class
+Spiele/SameGame/
+    ../Puzzle.js
+    ../Scripts.js
+    SameGame.js
+Spiele/Schiebepuzzles/
+    ../Puzzle.js
+    ../Scripts.js
+    SlidingBlocks.js
+Spiele/Schiebepuzzles/Klassiker/
+    ../../Puzzle.js
+    ../../Scripts.js
+    ../SlidingBlocks.js
+Spiele/Schiebung/
+    ../Scripts.js
+    Schiebung.jar
+    https://www.janko.at/Spiele/Schiebung/Schiebung.class
+Spiele/Schlagschach/
+    ../Scripts.js
+    Schlagschach.jar
+    https://www.janko.at/Spiele/Schlagschach/Schlagschach.class
+Spiele/Shooter/
+    Shooter.jar
+    https://www.janko.at/Spiele/Shooter/Shooter.class
+Spiele/Sia-Sola/
+    ../Scripts.js
+    SiaSola.jar
+    https://www.janko.at/Spiele/Sia-Sola/SiaSola.class
+Spiele/Siji/
+    Siji.jar
+    https://www.janko.at/Spiele/Siji/Siji.class
+Spiele/Slitherlink/
+    ../Scripts.js
+    SlitherlinkOpt.jar
+    https://www.janko.at/Spiele/Slitherlink/SlitherlinkOpt.class
+Spiele/SnakePit/
+    Snake.class
+Spiele/Sokoban/
+    ../Puzzle.js
+    ../Scripts.js
+    ../Sorttable.js
+    Sokoban.js
+Spiele/Solitaer/
+    ../Scripts.js
+    Solitaire.jar
+    https://www.janko.at/Spiele/Solitaer/Solitaire.class
+Spiele/Solitaerschach/
+    ../Scripts.js
+    Solitaerschach.jar
+    https://www.janko.at/Spiele/Solitaerschach/Solitaerschach.class
+Spiele/Solomon/
+Spiele/Solomon/Searchlight/
+    Searchlight.jar
+    https://www.janko.at/Spiele/Solomon/Searchlight/Searchlight.class
+Spiele/Solomon/Snakes/
+    Snakes.jar
+    https://www.janko.at/Spiele/Solomon/Snakes/Snakes.class
+Spiele/Springerkrieg/
+    Springerkrieg.jar
+    https://www.janko.at/Spiele/Springerkrieg/Springerkrieg.class
+Spiele/Sprunglabyrinthe/
+    ../Puzzle.js
+    ../Scripts.js
+    JumpMaze.js
+Spiele/Summathum/
+    ../Scripts.js
+    Summathum.jar
+    https://www.janko.at/Spiele/Summathum/Summathum.class
+Spiele/SwapGame/
+    SwapGame.jar
+    https://www.janko.at/Spiele/SwapGame/SwapGame.class
+Spiele/TacTix/
+    TacTix.jar
+    https://www.janko.at/Spiele/TacTix/TacTix.class
+Spiele/Toshio/
+    ADice.jar
+    Alphametics.jar
+    Billards.jar
+    Blackbox.jar
+    Buildings.jar
+    CenterFour.jar
+    ColorBarrier.jar
+    ColorPanel.jar
+    ColorTile.jar
+    Congruence.jar
+    Connection.jar
+    Container.jar
+    CrossRiver.jar
+    Crush.jar
+    Divide.jar
+    Dominos.jar
+    Enclosure.jar
+    Holes.jar
+    Matches.jar
+    https://www.janko.at/Spiele/Toshio/ADice.class
+    https://www.janko.at/Spiele/Toshio/Alphametics.class
+    https://www.janko.at/Spiele/Toshio/Billards.class
+    https://www.janko.at/Spiele/Toshio/Blackbox.class
+    https://www.janko.at/Spiele/Toshio/Buildings.class
+    https://www.janko.at/Spiele/Toshio/CenterFour.class
+    https://www.janko.at/Spiele/Toshio/ColorBarrier.class
+    https://www.janko.at/Spiele/Toshio/ColorPanel.class
+    https://www.janko.at/Spiele/Toshio/ColorTile.class
+    https://www.janko.at/Spiele/Toshio/Congruence.class
+    https://www.janko.at/Spiele/Toshio/Connection.class
+    https://www.janko.at/Spiele/Toshio/Container.class
+    https://www.janko.at/Spiele/Toshio/CrossRiver.class
+    https://www.janko.at/Spiele/Toshio/Crush.class
+    https://www.janko.at/Spiele/Toshio/Divide.class
+    https://www.janko.at/Spiele/Toshio/Dominos.class
+    https://www.janko.at/Spiele/Toshio/Enclosure.class
+    https://www.janko.at/Spiele/Toshio/Holes.class
+    https://www.janko.at/Spiele/Toshio/Matches.class
+Spiele/Triplets/
+    Triplets.jar
+    https://www.janko.at/Spiele/Triplets/Triplets.class
+Spiele/Vexed/
+    ../Scripts.js
+    Vexed.jar
+    https://www.janko.at/Spiele/Vexed/Vexed.class
+Spiele/Vierzahl/
+    ../Scripts.js
+    Vierzahl.jar
+    https://www.janko.at/Spiele/Vierzahl/Vierzahl.class
+Spiele/Vlak/
+    ../Scripts.js
+    Worm.jar
+    https://www.janko.at/Spiele/Vlak/Worm.class
+Spiele/Wortsuche/
+    ../Scripts.js
+    Wortsuche.jar
+    https://www.janko.at/Spiele/Wortsuche/Wortsuche.class
+Spiele/Wurmlabyrinthe/
+    ../Scripts.js
+    Wurmlabyrinthe.jar
+    https://www.janko.at/Spiele/Wurmlabyrinthe/Wurmlabyrinthe.class

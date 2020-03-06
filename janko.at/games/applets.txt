@@ -1,0 +1,1498 @@
+Spiele/Battleships/index.htm
+    {'code': 'https://www.janko.at/Spiele/Battleships/Battleships.class', 'archive': 'Battleships.jar', 'width': '450', 'height': '360'}
+Spiele/Blackbox/index.htm
+    {'code': 'https://www.janko.at/Spiele/Blackbox/BlackBoxMake.class', 'archive': 'BlackBoxMake.jar', 'width': '460', 'height': '420'}
+Spiele/Boulderdash/index.htm
+    {'code': 'https://www.janko.at/Spiele/Boulderdash/Boulderdash.class', 'archive': 'Boulderdash.jar', 'width': '620', 'height': '400'}
+Spiele/Boundrop/index.htm
+    {'code': 'https://www.janko.at/Spiele/Boundrop/Boundrop.class', 'archive': 'Boundrop.jar', 'width': '600', 'height': '420'}
+Spiele/ColorSpreading/index.htm
+    {'code': 'https://www.janko.at/Spiele/ColorSpreading/ColorSpreading.class', 'archive': 'ColorSpreading.jar', 'width': '400', 'height': '400', 'alt': 'Jave-Applet'}
+Spiele/Daleks/index.htm
+    {'code': 'https://www.janko.at/Spiele/Daleks/Daleks.class', 'archive': 'Daleks.jar', 'width': '256', 'height': '274'}
+Spiele/Eliminator/index.htm
+    {'code': 'https://www.janko.at/Spiele/Eliminator/Eliminator.class', 'archive': 'Eliminator.jar', 'width': '240', 'height': '260'}
+Spiele/Fillomino/Nullomino.htm
+    {'code': 'https://www.janko.at/Spiele/Fillomino/FillominoOpt.class', 'archive': 'FillominoOpt.jar', 'width': '570', 'height': '440', 'alt': 'Java Applet'}
+Spiele/Gorapuru/index.htm
+    {'code': 'https://www.janko.at/Spiele/Gorapuru/Gorapuru.class', 'archive': 'Gorapuru.jar', 'width': '400', 'height': '370'}
+Spiele/Hebi/index.htm
+    {'code': 'https://www.janko.at/Spiele/Hebi/Hebi.class', 'archive': 'Hebi.jar', 'width': '400', 'height': '360'}
+Spiele/Iceblox/index.htm
+    {'code': 'Iceblox.class', 'width': '400', 'height': '350'}
+Spiele/Javanoid/index.htm
+    {'code': 'https://www.janko.at/Spiele/Javanoid/Javanoid.class', 'archive': 'Javanoid.jar', 'width': '312', 'height': '340'}
+Spiele/Mastermind/index.htm
+    {'code': 'https://www.janko.at/Spiele/Mastermind/Mastermind.class', 'archive': 'Mastermind.jar', 'width': '270', 'height': '250'}
+Spiele/Matrix/index.htm
+    {'code': 'https://www.janko.at/Spiele/Matrix/Matrix.class', 'archive': 'Matrix.jar', 'width': '400', 'height': '370'}
+Spiele/Matrix2/index.htm
+    {'code': 'https://www.janko.at/Spiele/Matrix2/Matrix.class', 'archive': 'Matrix.jar', 'width': '420', 'height': '460'}
+Spiele/Maxit/index.htm
+    {'code': 'https://www.janko.at/Spiele/Maxit/Maxit.class', 'archive': 'Maxit.jar', 'width': '500', 'height': '500'}
+Spiele/Mosaik/16x08.htm
+    {'code': 'https://www.janko.at/Spiele/Mosaik/MosaikOpt.class', 'archive': 'MosaikOpt.jar', 'width': '520', 'height': '370', 'alt': 'Java Applet'}
+Spiele/Mosaik/16x12.htm
+    {'code': 'https://www.janko.at/Spiele/Mosaik/MosaikOpt.class', 'archive': 'MosaikOpt.jar', 'width': '520', 'height': '490', 'alt': 'Java Applet'}
+Spiele/Mosaik/16x16.htm
+    {'code': 'https://www.janko.at/Spiele/Mosaik/MosaikOpt.class', 'archive': 'MosaikOpt.jar', 'width': '520', 'height': '610', 'alt': 'Java Applet'}
+Spiele/Mosaik/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Mosaik/MosaikOpt.class', 'archive': 'MosaikOpt.jar', 'width': '700', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Nibbly/index.htm
+    {'code': 'https://www.janko.at/Spiele/Nibbly/Nibbly.class', 'archive': 'Nibbly.jar', 'height': '460', 'width': '680', 'alt': 'Java-Applet'}
+Spiele/PanneRotto/index.htm
+    {'code': 'https://www.janko.at/Spiele/PanneRotto/PanneRotto.class', 'archive': 'PanneRotto.jar', 'width': '400', 'height': '300'}
+Spiele/Polyominos/15x10x08.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '500', 'height': '400', 'alt': 'Java-Applet'}
+Spiele/Polyominos/15x10x10.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '500', 'height': '400', 'alt': 'Java-Applet'}
+Spiele/Polyominos/15x10x12.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '500', 'height': '400', 'alt': 'Java-Applet'}
+Spiele/Polyominos/18x12x08.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '590', 'height': '460', 'alt': 'Java-Applet'}
+Spiele/Polyominos/18x12x10.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '590', 'height': '460', 'alt': 'Java-Applet'}
+Spiele/Polyominos/18x12x12.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '590', 'height': '460', 'alt': 'Java-Applet'}
+Spiele/Polyominos/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Polyominos/Polyominos.class', 'archive': 'Polyominos.jar', 'width': '450', 'height': '440', 'alt': 'Java-Applet'}
+Spiele/Puzzles/001.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/002.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/003.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/004.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/005.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/006.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/007.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/008.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/009.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/010.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/011.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/012.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/013.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/014.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/015.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/016.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/017.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/018.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/019.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/020.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/021.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/022.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/023.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/024.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/025.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/026.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/027.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/028.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/029.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/030.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/031.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/032.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/033.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/034.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/035.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/036.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/037.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/038.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/039.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/040.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/041.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/042.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/043.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/044.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/045.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/046.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/047.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/048.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/049.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/050.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/051.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/052.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/053.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/054.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/055.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/056.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/057.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/058.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/059.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/060.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/061.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/062.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/063.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/064.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/065.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/066.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/067.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/068.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/069.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/070.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/071.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/072.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/073.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/074.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/075.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/076.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/077.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/078.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/079.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/080.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/081.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/082.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/083.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/084.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/085.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/086.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/087.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/088.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/089.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/090.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/091.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/092.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/093.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/094.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/095.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/096.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/097.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/098.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/099.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/100.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/101.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/102.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/103.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/104.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/105.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/106.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/107.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/108.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/109.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/110.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/111.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/112.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/113.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/114.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/115.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/116.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/117.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/118.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/119.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/120.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/121.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/122.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/123.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/124.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/125.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/126.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/127.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/128.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/129.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/130.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/131.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/132.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/133.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/134.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/135.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/136.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/137.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/138.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/139.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/140.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/141.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/142.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/143.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/144.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/145.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/146.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/147.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/148.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/149.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/150.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/151.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/152.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/153.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/154.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/155.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/156.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/157.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/158.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/159.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/160.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/161.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/162.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/163.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/164.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/165.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/166.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/167.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/168.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/169.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/170.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/171.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/172.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/173.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/174.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/175.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/176.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/177.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/178.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/179.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/180.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/181.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/182.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/183.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/184.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/185.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/186.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/187.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/188.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/189.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/190.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/191.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/192.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/193.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/194.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/195.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/196.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/197.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/198.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/199.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/200.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/201.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/202.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/203.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/204.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/205.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/206.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/207.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/208.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/209.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/210.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/211.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/212.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/213.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/214.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/215.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/216.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/217.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/218.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/219.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/220.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/221.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/222.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/223.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/224.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/225.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/226.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/227.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/228.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/229.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/230.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/231.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/232.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/233.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/234.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/235.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/236.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/237.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/238.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/239.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/240.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/241.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/242.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/243.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/244.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/245.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/246.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/247.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/248.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/249.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/250.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/251.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/252.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/253.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/254.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/255.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/256.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/257.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/258.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/259.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/260.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/261.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/262.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/263.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/264.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/265.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/266.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/267.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/268.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/269.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/270.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/271.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/272.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/273.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/274.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/275.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/276.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/277.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/278.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/279.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/280.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/281.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/282.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/283.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/284.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/285.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/286.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/287.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/288.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/289.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/290.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/291.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/292.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/293.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/294.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/295.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/296.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/297.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/298.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/299.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/300.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/301.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/302.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/303.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/304.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/305.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/306.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/307.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/308.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/309.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/310.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/311.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/312.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/313.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/314.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/315.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/316.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/317.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/318.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/319.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/320.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/321.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/322.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/323.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/324.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/325.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/326.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/327.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/328.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/329.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/330.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/331.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/332.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/333.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/334.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/335.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/336.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/337.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/338.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/339.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/340.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/341.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/342.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/343.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/344.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/345.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/346.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/347.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/348.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/349.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/350.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/351.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/352.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/353.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/354.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/355.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/356.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/357.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/358.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/359.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/360.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/361.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/362.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/363.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/364.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/365.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/366.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/367.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/368.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/369.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/370.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/371.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/372.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/373.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/374.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/375.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/376.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/377.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/378.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/379.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/380.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/381.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/382.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/383.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/384.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/385.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/386.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/387.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/388.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/389.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/390.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/391.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/392.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/393.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/394.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/395.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/396.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/397.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/398.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/399.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/400.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/401.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/402.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/403.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/404.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/405.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/406.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/407.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/408.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/409.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/410.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/411.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/412.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/413.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/414.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/415.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/416.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/417.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/418.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/419.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/420.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/421.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/422.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/423.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/424.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/425.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/426.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/427.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/428.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/429.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/430.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/431.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/432.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/433.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/434.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/435.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/436.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/437.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/438.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/439.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/440.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/441.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/442.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/443.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/444.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/445.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/446.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/447.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/448.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/449.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/450.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/451.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/452.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/453.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/454.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/455.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/456.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/457.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/458.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/459.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/460.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/461.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/462.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/463.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/464.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/465.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/466.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/467.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/468.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/469.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/470.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/471.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/472.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/473.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/474.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/475.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/476.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/477.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/478.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/479.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/480.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/481.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/482.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/483.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/484.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/485.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/486.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/487.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/488.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/489.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/490.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/491.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/492.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/493.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/494.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/495.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/496.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/497.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/498.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/499.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/500.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/501.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/502.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/503.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/504.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/505.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/506.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/507.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/508.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/509.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/510.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/511.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/512.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/513.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/514.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/515.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/516.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/517.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/518.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/519.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/520.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/521.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/522.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/523.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/524.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/525.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/526.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/527.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/528.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/529.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/530.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/531.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/532.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/533.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/534.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/535.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/536.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/537.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/538.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/539.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/540.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/541.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/542.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/543.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/544.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/545.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/546.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/547.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/548.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/549.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/550.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/551.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/552.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/553.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/554.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/555.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/556.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/557.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/558.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/559.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/560.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/561.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/562.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/563.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/564.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/565.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/566.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/567.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/568.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/569.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/570.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/571.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/572.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/573.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/574.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/575.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/576.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/577.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/578.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/579.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/580.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/581.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/582.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/583.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/584.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/585.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/586.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/587.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/588.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/589.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/590.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/591.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/592.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/593.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/594.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/595.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/596.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/597.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/598.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/599.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Puzzles/600.a.htm
+    {'code': 'https://www.janko.at/Spiele/Puzzles/Jigsaw.class', 'archive': 'Jigsaw.jar', 'width': '760', 'height': '620', 'alt': 'Java-Applet'}
+Spiele/Quadrato/10x10.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '500', 'height': '300', 'alt': 'Java Applet'}
+Spiele/Quadrato/16x16.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '440', 'height': '420', 'alt': 'Java Applet'}
+Spiele/Quadrato/20x20.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '440', 'height': '440', 'alt': 'Java Applet'}
+Spiele/Quadrato/25x25.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '420', 'height': '420', 'alt': 'Java Applet'}
+Spiele/Quadrato/30x30.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '500', 'height': '500', 'alt': 'Java Applet'}
+Spiele/Quadrato/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '500', 'height': '440', 'alt': 'Java Applet'}
+Spiele/Quadrato/Meister.htm
+    {'code': 'https://www.janko.at/Spiele/Quadrato/Quadrato.class', 'archive': 'Quadrato.jar', 'width': '440', 'height': '440', 'alt': 'Java Applet'}
+Spiele/Queens/index.htm
+    {'code': 'https://www.janko.at/Spiele/Queens/Queens.class', 'archive': 'Queens.jar', 'width': '400', 'height': '370'}
+Spiele/Rollwuerfel/4x4.htm
+    {'code': 'https://www.janko.at/Spiele/Rollwuerfel/Rollwuerfel.class', 'archive': 'Rollwuerfel.jar', 'width': '450', 'height': '280', 'alt': 'Java-Applet'}
+Spiele/Rollwuerfel/4x6.htm
+    {'code': 'https://www.janko.at/Spiele/Rollwuerfel/Rollwuerfel.class', 'archive': 'Rollwuerfel.jar', 'width': '450', 'height': '280', 'alt': 'Java-Applet'}
+Spiele/Rollwuerfel/5x5.htm
+    {'code': 'https://www.janko.at/Spiele/Rollwuerfel/Rollwuerfel.class', 'archive': 'Rollwuerfel.jar', 'width': '450', 'height': '320', 'alt': 'Java-Applet'}
+Spiele/Rollwuerfel/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Rollwuerfel/Rollwuerfel.class', 'archive': 'Rollwuerfel.jar', 'width': '450', 'height': '440', 'alt': 'Java-Applet'}
+Spiele/Rotaro/index.htm
+    {'code': 'https://www.janko.at/Spiele/Rotaro/Rotaro.class', 'archive': 'Rotaro.jar', 'width': '400', 'height': '370'}
+Spiele/Rundherum/index.htm
+    {'code': 'https://www.janko.at/Spiele/Rundherum/RoundAround.class', 'archive': 'RoundAround.jar', 'width': '350', 'height': '360', 'alt': 'Java-Applet'}
+Spiele/Schiebung/3x4.htm
+    {'code': 'https://www.janko.at/Spiele/Schiebung/Schiebung.class', 'archive': 'Schiebung.jar', 'width': '450', 'height': '240', 'alt': 'Java-Applet'}
+Spiele/Schiebung/4x4.htm
+    {'code': 'https://www.janko.at/Spiele/Schiebung/Schiebung.class', 'archive': 'Schiebung.jar', 'width': '450', 'height': '280', 'alt': 'Java-Applet'}
+Spiele/Schiebung/4x6.htm
+    {'code': 'https://www.janko.at/Spiele/Schiebung/Schiebung.class', 'archive': 'Schiebung.jar', 'width': '450', 'height': '280', 'alt': 'Java-Applet'}
+Spiele/Schiebung/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Schiebung/Schiebung.class', 'archive': 'Schiebung.jar', 'width': '400', 'height': '440', 'alt': 'Java-Applet'}
+Spiele/Schlagschach/06x06.htm
+    {'code': 'https://www.janko.at/Spiele/Schlagschach/Schlagschach.class', 'archive': 'Schlagschach.jar', 'width': '450', 'height': '320', 'alt': 'Java Applet'}
+Spiele/Schlagschach/08x08.htm
+    {'code': 'https://www.janko.at/Spiele/Schlagschach/Schlagschach.class', 'archive': 'Schlagschach.jar', 'width': '450', 'height': '380', 'alt': 'Java Applet'}
+Spiele/Schlagschach/10x10.htm
+    {'code': 'https://www.janko.at/Spiele/Schlagschach/Schlagschach.class', 'archive': 'Schlagschach.jar', 'width': '450', 'height': '460', 'alt': 'Java Applet'}
+Spiele/Schlagschach/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Schlagschach/Schlagschach.class', 'archive': 'Schlagschach.jar', 'width': '480', 'height': '520', 'alt': 'Java Applet', 'codebase': '../Schlagschach/'}
+Spiele/Schlagschach/Meister.htm
+    {'code': 'https://www.janko.at/Spiele/Schlagschach/Schlagschach.class', 'archive': 'Schlagschach.jar', 'width': '460', 'height': '530', 'alt': 'Java Applet'}
+Spiele/Shooter/index.htm
+    {'code': 'https://www.janko.at/Spiele/Shooter/Shooter.class', 'archive': 'Shooter.jar', 'width': '290', 'height': '328', 'alt': 'Java Applet'}
+Spiele/Sia-Sola/Leicht.htm
+    {'code': 'https://www.janko.at/Spiele/Sia-Sola/SiaSola.class', 'archive': 'SiaSola.jar', 'width': '450', 'height': '400'}
+Spiele/Sia-Sola/Mittel.htm
+    {'code': 'https://www.janko.at/Spiele/Sia-Sola/SiaSola.class', 'archive': 'SiaSola.jar', 'width': '450', 'height': '400'}
+Spiele/Sia-Sola/Schwer.htm
+    {'code': 'https://www.janko.at/Spiele/Sia-Sola/SiaSola.class', 'archive': 'SiaSola.jar', 'width': '450', 'height': '400'}
+Spiele/Siji/index.htm
+    {'code': 'https://www.janko.at/Spiele/Siji/Siji.class', 'archive': 'Siji.jar', 'width': '330', 'height': '300'}
+Spiele/Slitherlink/08x06.htm
+    {'code': 'https://www.janko.at/Spiele/Slitherlink/SlitherlinkOpt.class', 'archive': 'SlitherlinkOpt.jar', 'width': '550', 'height': '300', 'alt': 'Java Applet'}
+Spiele/Slitherlink/10x08.htm
+    {'code': 'https://www.janko.at/Spiele/Slitherlink/SlitherlinkOpt.class', 'archive': 'SlitherlinkOpt.jar', 'width': '550', 'height': '360', 'alt': 'Java Applet'}
+Spiele/Slitherlink/14x10.htm
+    {'code': 'https://www.janko.at/Spiele/Slitherlink/SlitherlinkOpt.class', 'archive': 'SlitherlinkOpt.jar', 'width': '550', 'height': '440', 'alt': 'Java Applet'}
+Spiele/Slitherlink/14x12.htm
+    {'code': 'https://www.janko.at/Spiele/Slitherlink/SlitherlinkOpt.class', 'archive': 'SlitherlinkOpt.jar', 'width': '550', 'height': '500', 'alt': 'Java Applet'}
+Spiele/Slitherlink/Meister.htm
+    {'code': 'https://www.janko.at/Spiele/Slitherlink/SlitherlinkOpt.class', 'archive': 'SlitherlinkOpt.jar', 'width': '400', 'height': '470', 'alt': 'Java Applet'}
+Spiele/SnakePit/index.htm
+    {'code': 'Snake.class', 'width': '625', 'height': '430'}
+Spiele/Solitaer/9x9-Brett.htm
+    {'code': 'https://www.janko.at/Spiele/Solitaer/Solitaire.class', 'archive': 'Solitaire.jar', 'width': '400', 'height': '360', 'alt': 'Java-Applet'}
+Spiele/Solitaer/Englisch.htm
+    {'code': 'https://www.janko.at/Spiele/Solitaer/Solitaire.class', 'archive': 'Solitaire.jar', 'width': '400', 'height': '300', 'alt': 'Java-Applet'}
+Spiele/Solitaer/Franzoesisch.htm
+    {'code': 'https://www.janko.at/Spiele/Solitaer/Solitaire.class', 'archive': 'Solitaire.jar', 'width': '400', 'height': '300', 'alt': 'Java-Applet'}
+Spiele/Solitaer/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Solitaer/Solitaire.class', 'archive': 'Solitaire.jar', 'width': '400', 'height': '360'}
+Spiele/Solitaerschach/2x3-01.htm
+    {'code': 'https://www.janko.at/Spiele/Solitaerschach/Solitaerschach.class', 'archive': 'Solitaerschach.jar', 'width': '450', 'height': '250', 'alt': 'Java Applet'}
+Spiele/Solitaerschach/3x3-01.htm
+    {'code': 'https://www.janko.at/Spiele/Solitaerschach/Solitaerschach.class', 'archive': 'Solitaerschach.jar', 'width': '450', 'height': '250', 'alt': 'Java Applet'}
+Spiele/Solomon/Searchlight/index.htm
+    {'code': 'https://www.janko.at/Spiele/Solomon/Searchlight/Searchlight.class', 'archive': 'Searchlight.jar', 'width': '750', 'height': '460'}
+Spiele/Solomon/Snakes/index.htm
+    {'code': 'https://www.janko.at/Spiele/Solomon/Snakes/Snakes.class', 'archive': 'Snakes.jar', 'width': '720', 'height': '465'}
+Spiele/Springerkrieg/index.htm
+    {'code': 'https://www.janko.at/Spiele/Springerkrieg/Springerkrieg.class', 'archive': 'Springerkrieg.jar', 'width': '450', 'height': '500'}
+Spiele/Summathum/08x08.htm
+    {'code': 'https://www.janko.at/Spiele/Summathum/Summathum.class', 'archive': 'Summathum.jar', 'width': '450', 'height': '350', 'alt': 'Java Applet'}
+Spiele/Summathum/10x10.htm
+    {'code': 'https://www.janko.at/Spiele/Summathum/Summathum.class', 'archive': 'Summathum.jar', 'width': '500', 'height': '410', 'alt': 'Java Applet'}
+Spiele/Summathum/12x12.htm
+    {'code': 'https://www.janko.at/Spiele/Summathum/Summathum.class', 'archive': 'Summathum.jar', 'width': '590', 'height': '470', 'alt': 'Java Applet'}
+Spiele/Summathum/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Summathum/Summathum.class', 'archive': 'Summathum.jar', 'width': '640', 'height': '460', 'alt': 'Java Applet'}
+Spiele/SwapGame/index.htm
+    {'code': 'https://www.janko.at/Spiele/SwapGame/SwapGame.class', 'archive': 'SwapGame.jar', 'width': '400', 'height': '460', 'alt': 'Java Applet'}
+Spiele/TacTix/index.htm
+    {'code': 'https://www.janko.at/Spiele/TacTix/TacTix.class', 'archive': 'TacTix.jar', 'width': '380', 'height': '250', 'alt': 'Java Applet'}
+Spiele/Toshio/ADice.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/ADice.class', 'archive': 'ADice.jar', 'height': '260', 'width': '420'}
+Spiele/Toshio/Alphametics.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Alphametics.class', 'archive': 'Alphametics.jar', 'height': '380', 'width': '440'}
+Spiele/Toshio/Billards.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Billards.class', 'archive': 'Billards.jar', 'height': '320', 'width': '690'}
+Spiele/Toshio/Blackbox.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Blackbox.class', 'archive': 'Blackbox.jar', 'height': '440', 'width': '420'}
+Spiele/Toshio/Buildings.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Buildings.class', 'archive': 'Buildings.jar', 'height': '290', 'width': '270'}
+Spiele/Toshio/CenterFour.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/CenterFour.class', 'archive': 'CenterFour.jar', 'height': '380', 'width': '360'}
+Spiele/Toshio/ColorBarrier.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/ColorBarrier.class', 'archive': 'ColorBarrier.jar', 'height': '120', 'width': '680'}
+Spiele/Toshio/ColorPanel.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/ColorPanel.class', 'archive': 'ColorPanel.jar', 'height': '270', 'width': '390'}
+Spiele/Toshio/ColorTile.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/ColorTile.class', 'archive': 'ColorTile.jar', 'height': '400', 'width': '650'}
+Spiele/Toshio/Congruence.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Congruence.class', 'archive': 'Congruence.jar', 'height': '320', 'width': '400'}
+Spiele/Toshio/Connection.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Connection.class', 'archive': 'Connection.jar', 'height': '300', 'width': '270'}
+Spiele/Toshio/Container.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Container.class', 'archive': 'Container.jar', 'height': '341', 'width': '320'}
+Spiele/Toshio/CrossRiver.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/CrossRiver.class', 'archive': 'CrossRiver.jar', 'height': '200', 'width': '600'}
+Spiele/Toshio/Crush.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Crush.class', 'archive': 'Crush.jar', 'height': '360', 'width': '340'}
+Spiele/Toshio/Divide.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Divide.class', 'archive': 'Divide.jar', 'height': '300', 'width': '400'}
+Spiele/Toshio/Dominos.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Dominos.class', 'archive': 'Dominos.jar', 'height': '300', 'width': '300'}
+Spiele/Toshio/Enclosure.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Enclosure.class', 'archive': 'Enclosure.jar', 'height': '310', 'width': '300'}
+Spiele/Toshio/Holes.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Holes.class', 'archive': 'Holes.jar', 'height': '210', 'width': '560'}
+Spiele/Toshio/Matches.htm
+    {'code': 'https://www.janko.at/Spiele/Toshio/Matches.class', 'archive': 'Matches.jar', 'height': '170', 'width': '600', 'alt': 'Java-Applet'}
+Spiele/Triplets/index.htm
+    {'code': 'https://www.janko.at/Spiele/Triplets/Triplets.class', 'archive': 'Triplets.jar', 'width': '520', 'height': '380', 'alt': 'Java Applet'}
+Spiele/Vexed/Children.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Classic-1.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Classic-2.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Confusion.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Impossible.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Panic.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Twister.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-01.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-02.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-03.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-04.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-05.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-06.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-07.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-08.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-09.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-10.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-11.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-12.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-13.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-14.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-15.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-16.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-17.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-18.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-19.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-20.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-21.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-22.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-23.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-24.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vexed/Variety-25.htm
+    {'code': 'https://www.janko.at/Spiele/Vexed/Vexed.class', 'archive': 'Vexed.jar', 'width': '400', 'height': '400', 'alt': 'Java Applet'}
+Spiele/Vierzahl/Design.htm
+    {'code': 'https://www.janko.at/Spiele/Vierzahl/Vierzahl.class', 'archive': 'Vierzahl.jar', 'width': '400', 'height': '460', 'alt': 'Java Applet'}
+Spiele/Vierzahl/Game.htm
+    {'code': 'https://www.janko.at/Spiele/Vierzahl/Vierzahl.class', 'archive': 'Vierzahl.jar', 'width': '440', 'height': '500', 'alt': 'Java Applet'}
+Spiele/Vierzahl/Tutorial.htm
+    {'code': 'https://www.janko.at/Spiele/Vierzahl/Vierzahl.class', 'archive': 'Vierzahl.jar', 'width': '400', 'height': '460', 'alt': 'Java Applet'}
+Spiele/Vlak/Langsam.htm
+    {'code': 'https://www.janko.at/Spiele/Vlak/Worm.class', 'archive': 'Worm.jar', 'height': '490', 'width': '680', 'alt': 'Java-Applet'}
+Spiele/Vlak/Normal.htm
+    {'code': 'https://www.janko.at/Spiele/Vlak/Worm.class', 'archive': 'Worm.jar', 'height': '490', 'width': '680', 'alt': 'Java-Applet'}
+Spiele/Vlak/Puzzle.htm
+    {'code': 'https://www.janko.at/Spiele/Vlak/Worm.class', 'archive': 'Worm.jar', 'height': '490', 'width': '680', 'alt': 'Java-Applet'}
+Spiele/Vlak/Schnell.htm
+    {'code': 'https://www.janko.at/Spiele/Vlak/Worm.class', 'archive': 'Worm.jar', 'height': '490', 'width': '680', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/10x10.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '460', 'height': '380', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/15x15.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '490', 'height': '410', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/17x17.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '600', 'height': '500', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/18x12.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '550', 'height': '350', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/20x15.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '600', 'height': '410', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/20x20.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '620', 'height': '520', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/25x15.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '730', 'height': '410', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/25x20.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '730', 'height': '520', 'alt': 'Java-Applet'}
+Spiele/Wortsuche/30x20.htm
+    {'code': 'https://www.janko.at/Spiele/Wortsuche/Wortsuche.class', 'archive': 'Wortsuche.jar', 'width': '760', 'height': '480', 'alt': 'Java-Applet'}
+Spiele/Wurmlabyrinthe/Gilbert.htm
+    {'code': 'https://www.janko.at/Spiele/Wurmlabyrinthe/Wurmlabyrinthe.class', 'archive': 'Wurmlabyrinthe.jar', 'width': '400', 'height': '300', 'alt': 'Java Applet'}
+Spiele/Wurmlabyrinthe/Leicht.htm
+    {'code': 'https://www.janko.at/Spiele/Wurmlabyrinthe/Wurmlabyrinthe.class', 'archive': 'Wurmlabyrinthe.jar', 'width': '400', 'height': '300', 'alt': 'Java Applet'}
+Spiele/Wurmlabyrinthe/Schwer.htm
+    {'code': 'https://www.janko.at/Spiele/Wurmlabyrinthe/Wurmlabyrinthe.class', 'archive': 'Wurmlabyrinthe.jar', 'width': '400', 'height': '300', 'alt': 'Java Applet'}
