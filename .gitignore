@@ -1,1 +1,2 @@
-datasets/exclude/*
+datasets/exclude/
+datasets/janko.at/puzzles/puzzle_data/
