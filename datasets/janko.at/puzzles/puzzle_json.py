@@ -14,6 +14,8 @@ import json,sys,os
 # integers or standardizing the value names used to represent grid size
 # this scrypt also provides no guarantee that the puzzles are valid (solvable
 # with only 1 solution), it only (attempts to) convert to a convenient format
+# the intention is to turn the data into json so that the postprocessing and
+# puzzle correctness verification can be done more easily
 
 # usage: puzzle_json.py <puzzle .txt dir> <puzzle type>
 
@@ -46,14 +48,16 @@ class ParseError(Exception):
 # settings: additional parameters to read a value
 # props: dict containing the values parsed so far
 # not all exceptions may be handled properly
-def parseValue(lines,i,type,settings,props):
-    if type < 10: # value on same line, use right function to parse it
-        typefunc = [str,int,float][type]
+def parseValue(lines,i,valuetype,settings,props):
+    if valuetype < 10: # value on same line, use right function to parse it
+        typefunc = [str,int,float][valuetype]
         try: return (i+1,typefunc(lines[i][lines[i].find(' ')+1:].strip()))
         except Exception as ex: raise ParseError(typefunc.__name__)
-    elif type == GRID: # read following lines as a grid with ' ' separators
-        rows = props[settings[0]]
-        cols = props[settings[1]]
+    elif valuetype == GRID: # read following lines as a grid with ' ' separators
+        rows,cols = settings
+        if type(rows) == str: rows = props[rows]
+        if type(cols) == str: cols = props[cols]
+        assert type(rows) == int and type(cols) == int
         if rows <= 0 or cols <= 0: raise ParseGridError('rows<=0 or cols<=0')
         try: data = [ [s.strip() for s in line.split()]
                       for line in lines[i+1:i+1+rows] ]
@@ -61,7 +65,7 @@ def parseValue(lines,i,type,settings,props):
         for row in data:
             if len(row) != cols: raise ParseGridError('row %d length'%len(row))
         return (i+rows+1,data)
-    elif type == MULTISTRING: # read following lines containing some string
+    elif valuetype == MULTISTRING: # read following lines containing some string
         ch = settings
         j = i+1
         data = ''
@@ -104,10 +108,16 @@ class PuzzleParser:
         else: self.properties[name] = (FLOAT,None)
     def addGrid(self,name,rowprop,colprop,ignore=False):
         # gets dimensions from other properties
+        # or can use fixed integers to get dimensions
         assert not self._hasProp(name)
-        assert type(rowprop) == str and type(colprop) == str
-        assert self.properties[rowprop] == (INTEGER,None)
-        assert self.properties[colprop] == (INTEGER,None)
+        if type(rowprop) == str:
+            assert self.properties[rowprop] == (INTEGER,None)
+        elif type(rowprop) == int: assert rowprop > 0
+        else: raise TypeError()
+        if type(colprop) == str:
+            assert self.properties[colprop] == (INTEGER,None)
+        elif type(colprop) == int: assert colprop > 0
+        else: raise TypeError()
         if ignore: self.ignore[name] = (GRID,(rowprop,colprop))
         else: self.properties[name] = (GRID,(rowprop,colprop))
     def addMultiString(self,name,ch,ignore=False):
@@ -138,9 +148,13 @@ class PuzzleParser:
                 typ,sett = self.properties[prop]
                 try: i,jobj[prop] = parseValue(lines,i,typ,sett,jobj)
                 except Exception as ex:
+                    jobj[prop] = None # indicates failure
                     log('error: '+prop)
                     i += 1
             else: raise UnknownProp(prop)
+
+# below are functions to add pretty standard property values to parsers
+# these (are expected to) occur within several types of puzzles
 
 def addInfos(parser): # standard puzzle info strings
     parser.addString('puzzle')
@@ -202,6 +216,8 @@ def parserLoop(path,parsers):
             quit()
     outf.close()
 
+# map subdir -> (dict of parsers)
+# a dict of parsers maps parsername -> PuzzleParser object
 allparsers = dict()
 
 # notes: the 'options' property only has the value 'diagonal'
@@ -216,7 +232,7 @@ def addSudokuParsers():
     addSizeGrid(sudokusize)
     addPxPy(sudokusize)
     sudokusize.addInteger('unit')
-    allparsers['sudoku'] = {'sudokurc':sudokurc,'sudokusize':sudokusize}
+    allparsers['Sudoku'] = {'sudokurc':sudokurc,'sudokusize':sudokusize}
 
 def initParsers():
     addSudokuParsers()
@@ -227,11 +243,15 @@ def log(msg):
     print(msg)
     if logfile: logfile.write(msg+'\n')
 
-if __name__ == '__main__':
-    logfile = open(os.path.normpath(sys.argv[1])+'/output.log','w')
+def main(path,puzzle):
+    global logfile
+    assert os.path.isdir(path)
+    logfile = open(os.path.normpath(path)+'/output.log','w')
     initParsers()
-    if sys.argv[2] not in allparsers:
+    if puzzle not in allparsers:
         print('invalid puzzle type')
         quit()
-    parserLoop(sys.argv[1],allparsers[sys.argv[2]])
+    parserLoop(path,allparsers[puzzle])
     logfile.close()
+
+if __name__ == '__main__': main(sys.argv[1],sys.argv[2])
