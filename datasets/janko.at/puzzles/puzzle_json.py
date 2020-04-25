@@ -65,9 +65,11 @@ def parseValue(lines,i,type,settings,props):
         ch = settings
         j = i+1
         data = ''
-        while ch in lines[j]:
-            data += lines[j].strip()
-            j += 1
+        try:
+            while ch in lines[j]:
+                data += lines[j].strip()
+                j += 1
+        except Exception as ex: raise ParseError('reached eof (multistring)')
         return (j,data)
     else: assert 0
 
@@ -116,7 +118,7 @@ class PuzzleParser:
         else: self.properties[name] = (MULTISTRING,ch)
     def parseFile(self,file,jobj): # jobj = object to add properties to
         assert type(jobj) == dict
-        lines = [line[:-1] for line in open(file,'r') if line != '\n']
+        lines = [line.strip() for line in open(file,'r') if line != '\n']
         assert lines[0] == 'begin'
         assert lines[-1] == 'end'
         i = 0
@@ -202,7 +204,7 @@ def parserLoop(path,parsers):
 
 allparsers = dict()
 
-# notes: the options property only has the value diagonal
+# notes: the 'options' property only has the value 'diagonal'
 def addSudokuParsers():
     sudokurc = PuzzleParser()
     addInfos(sudokurc)
@@ -228,5 +230,8 @@ def log(msg):
 if __name__ == '__main__':
     logfile = open(os.path.normpath(sys.argv[1])+'/output.log','w')
     initParsers()
+    if sys.argv[2] not in allparsers:
+        print('invalid puzzle type')
+        quit()
     parserLoop(sys.argv[1],allparsers[sys.argv[2]])
     logfile.close()
