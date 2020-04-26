@@ -29,6 +29,7 @@ FLOAT = 2
 # ...
 GRID = 10
 MULTISTRING = 11
+EMPTY = 100 # property as just the property name
 
 class UnknownProp(Exception):
     def __init__(self,msg=''):
@@ -75,6 +76,7 @@ def parseValue(lines,i,valuetype,settings,props):
                 j += 1
         except Exception as ex: raise ParseError('reached eof (multistring)')
         return (j,data)
+    elif valuetype == EMPTY: return (i+1,None) # skip line
     else: assert 0
 
 # represents properties to find in a puzzle file
@@ -126,6 +128,10 @@ class PuzzleParser:
         assert type(ch) == str
         if ignore: self.ignore[name] = (MULTISTRING,ch)
         else: self.properties[name] = (MULTISTRING,ch)
+    def addEmpty(self,name,ignore=False):
+        assert not self._hasProp(name)
+        if ignore: self.ignore[name] = (EMPTY,None)
+        else: self.properties[name] = (EMPTY,None)
     def parseFile(self,file,jobj): # jobj = object to add properties to
         assert type(jobj) == dict
         lines = [line.strip() for line in open(file,'r') if line != '\n']
@@ -141,16 +147,16 @@ class PuzzleParser:
             if prop in self.ignore:
                 typ,sett = self.ignore[prop]
                 try: i,_ = parseValue(lines,i,typ,sett,jobj)
-                except Exception as ex:
-                    log('error: '+prop)
-                    i += 1
+                except Exception as ex: raise ex
+                    #log('error: '+prop)
+                    #i += 1
             elif prop in self.properties:
                 typ,sett = self.properties[prop]
                 try: i,jobj[prop] = parseValue(lines,i,typ,sett,jobj)
-                except Exception as ex:
-                    jobj[prop] = None # indicates failure
-                    log('error: '+prop)
-                    i += 1
+                except Exception as ex: raise ex
+                    #jobj[prop] = None # indicates failure
+                    #log('error: '+prop)
+                    #i += 1
             else: raise UnknownProp(prop)
 
 # below are functions to add pretty standard property values to parsers
@@ -167,26 +173,69 @@ def addInfos(parser): # standard puzzle info strings
     parser.addString('info')
     parser.addMultiString('moves',';')
 
-def addRCGrid(parser): # grids specified by "rows" and "cols"
+def addRCGrid(parser,areas=True): # grids specified by "rows" and "cols"
     parser.addInteger('unit')
     parser.addInteger('rows')
     parser.addInteger('cols')
+    parser.addInteger('size')
+    parser.addInteger('depth')
     parser.addGrid('problem','rows','cols')
-    parser.addGrid('areas','rows','cols')
+    if areas: parser.addGrid('areas','rows','cols')
     parser.addGrid('solution','rows','cols')
 
-def addSizeGrid(parser): # grids specified by "size"
+def addSizeGrid(parser,areas=True): # grids specified by "size"
     parser.addInteger('unit')
+    parser.addInteger('rows')
+    parser.addInteger('cols')
     parser.addInteger('size')
     parser.addInteger('depth')
     parser.addGrid('problem','size','size')
-    parser.addGrid('areas','size','size')
+    if areas: parser.addGrid('areas','size','size')
     parser.addGrid('solution','size','size')
 
 def addPxPy(parser): # may be sudoku specific?
     parser.addInteger('pattern')
     parser.addInteger('patternx')
     parser.addInteger('patterny')
+
+def makeStandardRCGridParser(areas=True):
+    parser = PuzzleParser()
+    addInfos(parser)
+    addRCGrid(parser,areas)
+    return parser
+
+def makeStandardSizeGridParser(areas=True):
+    parser = PuzzleParser()
+    addInfos(parser)
+    addSizeGrid(parser,areas)
+    return parser
+
+# map subdir -> (dict of parsers)
+# a dict of parsers maps parsername -> PuzzleParser object
+allparsers = dict()
+
+# notes: the 'options' property only has the value 'diagonal'
+def addSudokuParsers():
+    sudokurc = makeStandardRCGridParser(False)
+    addPxPy(sudokurc)
+    sudokusize = makeStandardSizeGridParser(False)
+    sudokusize.addEmpty('areas') # workaround for puzzles 1052-1060
+    addPxPy(sudokusize)
+    allparsers['Sudoku'] = {'sudokurc':sudokurc,
+                            'sudokusize':sudokusize}
+
+def addHeyawakeParsers():
+    allparsers['Heyawake'] = {'heyawakerc':makeStandardRCGridParser(),
+                              'heyawakesize':makeStandardSizeGridParser()}
+
+def addAkariParsers():
+    allparsers['Akari'] = {'akarirc':makeStandardRCGridParser(),
+                           'akarisize':makeStandardSizeGridParser()}
+
+def initParsers():
+    addSudokuParsers()
+    addHeyawakeParsers()
+    addAkariParsers()
 
 # given a directory and set of parsers, this will try parsers on each file until
 # successful and write the result json objects on their own line to output.json
@@ -196,14 +245,15 @@ def parserLoop(path,parsers):
     files = [f for f in os.listdir(path) if f.endswith('.txt')]
     outf = open(path+'/'+'output.json','w')
     for f in sorted(files):
-        log('processing: '+f)
+        print('processing: '+f)
         fname,fext = os.path.splitext(f)
         success = False
         for parsername in parsers:
+            print('trying parser:',parsername)
             jobj = {'file':fname}
             try:
                 parsers[parsername].parseFile(path+'/'+f,jobj)
-                log('success: parser = '+parsername)
+                log(f+' : success '+parsername)
                 success = True
                 break
             except Exception as ex: pass
@@ -213,41 +263,11 @@ def parserLoop(path,parsers):
             outf.write(json.dumps(jobj))
             outf.write('\n')
         else:
-            log('failed on file: '+f)
+            log(f+' : fail')
             outf.close()
+            logfile.close()
             quit()
     outf.close()
-
-# map subdir -> (dict of parsers)
-# a dict of parsers maps parsername -> PuzzleParser object
-allparsers = dict()
-
-# notes: the 'options' property only has the value 'diagonal'
-def addSudokuParsers():
-    sudokurc = PuzzleParser()
-    addInfos(sudokurc)
-    addRCGrid(sudokurc)
-    addPxPy(sudokurc)
-    sudokusize = PuzzleParser()
-    addInfos(sudokusize)
-    addSizeGrid(sudokusize)
-    addPxPy(sudokusize)
-    allparsers['Sudoku'] = {'sudokurc':sudokurc,
-                            'sudokusize':sudokusize}
-
-def addHeyawakeParsers():
-    heyawakerc = PuzzleParser()
-    addInfos(heyawakerc)
-    addRCGrid(heyawakerc)
-    heyawakesize = PuzzleParser()
-    addInfos(heyawakesize)
-    addSizeGrid(heyawakesize)
-    allparsers['Heyawake'] = {'heyawakerc':heyawakerc,
-                              'heyawakesize':heyawakesize}
-
-def initParsers():
-    addSudokuParsers()
-    addHeyawakeParsers()
 
 # for writing info/error messages
 logfile = None
