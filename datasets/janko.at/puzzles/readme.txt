@@ -9,5 +9,9 @@ steps
 following puzzles should be done with step 2 (fixes and json)
 
 Akari
+Fillomino
 Heyawake
+LITS
+Nurikabe
+Slitherlink
 Sudoku
