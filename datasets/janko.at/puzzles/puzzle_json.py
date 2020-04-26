@@ -168,6 +168,7 @@ def addInfos(parser): # standard puzzle info strings
     parser.addMultiString('moves',';')
 
 def addRCGrid(parser): # grids specified by "rows" and "cols"
+    parser.addInteger('unit')
     parser.addInteger('rows')
     parser.addInteger('cols')
     parser.addGrid('problem','rows','cols')
@@ -175,6 +176,7 @@ def addRCGrid(parser): # grids specified by "rows" and "cols"
     parser.addGrid('solution','rows','cols')
 
 def addSizeGrid(parser): # grids specified by "size"
+    parser.addInteger('unit')
     parser.addInteger('size')
     parser.addInteger('depth')
     parser.addGrid('problem','size','size')
@@ -226,16 +228,26 @@ def addSudokuParsers():
     addInfos(sudokurc)
     addRCGrid(sudokurc)
     addPxPy(sudokurc)
-    sudokurc.addInteger('unit')
     sudokusize = PuzzleParser()
     addInfos(sudokusize)
     addSizeGrid(sudokusize)
     addPxPy(sudokusize)
-    sudokusize.addInteger('unit')
-    allparsers['Sudoku'] = {'sudokurc':sudokurc,'sudokusize':sudokusize}
+    allparsers['Sudoku'] = {'sudokurc':sudokurc,
+                            'sudokusize':sudokusize}
+
+def addHeyawakeParsers():
+    heyawakerc = PuzzleParser()
+    addInfos(heyawakerc)
+    addRCGrid(heyawakerc)
+    heyawakesize = PuzzleParser()
+    addInfos(heyawakesize)
+    addSizeGrid(heyawakesize)
+    allparsers['Heyawake'] = {'heyawakerc':heyawakerc,
+                              'heyawakesize':heyawakesize}
 
 def initParsers():
     addSudokuParsers()
+    addHeyawakeParsers()
 
 # for writing info/error messages
 logfile = None
