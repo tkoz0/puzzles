@@ -164,17 +164,18 @@ class PuzzleParser:
 
 def addInfos(parser): # standard puzzle info strings
     parser.addString('puzzle')
-    parser.addString('variant')
-    parser.addString('options')
+    parser.addString('variant') # may not be present
+    parser.addString('options') # may not be present
     parser.addString('author')
-    parser.addString('solver')
-    parser.addString('source')
+    parser.addString('solver') # may not be present
+    parser.addString('source') # url
     parser.addString('title')
-    parser.addString('info')
-    parser.addMultiString('moves',';')
+    parser.addString('info') # unknown
+    parser.addString('pid') # problem id?
+    parser.addMultiString('moves',';') # should be present iff solver is present
 
 def addRCGrid(parser,areas=True): # grids specified by "rows" and "cols"
-    parser.addInteger('unit')
+    parser.addInteger('unit') # pixel dimensions of cells?
     parser.addInteger('rows')
     parser.addInteger('cols')
     parser.addInteger('size')
@@ -184,7 +185,7 @@ def addRCGrid(parser,areas=True): # grids specified by "rows" and "cols"
     parser.addGrid('solution','rows','cols')
 
 def addSizeGrid(parser,areas=True): # grids specified by "size"
-    parser.addInteger('unit')
+    parser.addInteger('unit') # pixel dimensions of cells?
     parser.addInteger('rows')
     parser.addInteger('cols')
     parser.addInteger('size')
@@ -198,13 +199,13 @@ def addPxPy(parser): # may be sudoku specific?
     parser.addInteger('patternx')
     parser.addInteger('patterny')
 
-def makeStandardRCGridParser(areas=True):
+def makeRCGridParser(areas=True):
     parser = PuzzleParser()
     addInfos(parser)
     addRCGrid(parser,areas)
     return parser
 
-def makeStandardSizeGridParser(areas=True):
+def makeSizeGridParser(areas=True):
     parser = PuzzleParser()
     addInfos(parser)
     addSizeGrid(parser,areas)
@@ -214,28 +215,29 @@ def makeStandardSizeGridParser(areas=True):
 # a dict of parsers maps parsername -> PuzzleParser object
 allparsers = dict()
 
+PARSER_RCGRID = makeRCGridParser()
+PARSER_SIZEGRID = makeSizeGridParser()
+
+def addBasicGridParsers(puzzle):
+    allparsers[puzzle] = { puzzle.lower()+'rc': PARSER_RCGRID,
+                           puzzle.lower()+'size': PARSER_SIZEGRID }
+
 # notes: the 'options' property only has the value 'diagonal'
 def addSudokuParsers():
-    sudokurc = makeStandardRCGridParser(False)
+    sudokurc = makeRCGridParser(False)
     addPxPy(sudokurc)
-    sudokusize = makeStandardSizeGridParser(False)
+    sudokusize = makeSizeGridParser(False)
     sudokusize.addEmpty('areas') # workaround for puzzles 1052-1060
     addPxPy(sudokusize)
     allparsers['Sudoku'] = {'sudokurc':sudokurc,
                             'sudokusize':sudokusize}
 
-def addHeyawakeParsers():
-    allparsers['Heyawake'] = {'heyawakerc':makeStandardRCGridParser(),
-                              'heyawakesize':makeStandardSizeGridParser()}
-
-def addAkariParsers():
-    allparsers['Akari'] = {'akarirc':makeStandardRCGridParser(),
-                           'akarisize':makeStandardSizeGridParser()}
-
 def initParsers():
     addSudokuParsers()
-    addHeyawakeParsers()
-    addAkariParsers()
+    basicGridPuzzles = ['Heyawake','Akari','Fillomino','LITS','Nurikabe',
+        'Slitherlink']
+    for bgp in basicGridPuzzles:
+        addBasicGridParsers(bgp)
 
 # given a directory and set of parsers, this will try parsers on each file until
 # successful and write the result json objects on their own line to output.json
@@ -250,7 +252,9 @@ def parserLoop(path,parsers):
         success = False
         for parsername in parsers:
             print('trying parser:',parsername)
-            jobj = {'file':fname}
+            # keep original file name available, should not be named the same
+            # as any of the properties in the puzzle files
+            jobj = {'__file__':fname}
             try:
                 parsers[parsername].parseFile(path+'/'+f,jobj)
                 log(f+' : success '+parsername)
