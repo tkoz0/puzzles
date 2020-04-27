@@ -165,6 +165,7 @@ class PuzzleParser:
 def addInfos(parser): # standard puzzle info strings
     parser.addString('puzzle')
     parser.addString('variant') # may not be present
+    parser.addString('layout') # may not be present
     parser.addString('options') # may not be present
     parser.addString('author')
     parser.addString('solver') # may not be present
@@ -219,8 +220,8 @@ PARSER_RCGRID = makeRCGridParser()
 PARSER_SIZEGRID = makeSizeGridParser()
 
 def addBasicGridParsers(puzzle):
-    allparsers[puzzle] = { puzzle.lower()+'rc': PARSER_RCGRID,
-                           puzzle.lower()+'size': PARSER_SIZEGRID }
+    allparsers[puzzle] = { puzzle.lower()+'-rc': PARSER_RCGRID,
+                           puzzle.lower()+'-size': PARSER_SIZEGRID }
 
 # notes: the 'options' property only has the value 'diagonal'
 def addSudokuParsers():
@@ -229,13 +230,16 @@ def addSudokuParsers():
     sudokusize = makeSizeGridParser(False)
     sudokusize.addEmpty('areas') # workaround for puzzles 1052-1060
     addPxPy(sudokusize)
-    allparsers['Sudoku'] = {'sudokurc':sudokurc,
-                            'sudokusize':sudokusize}
+    allparsers['Sudoku'] = {'sudoku-rc':sudokurc,
+                            'sudoku-size':sudokusize}
 
 def initParsers():
     addSudokuParsers()
     basicGridPuzzles = ['Heyawake','Akari','Fillomino','LITS','Nurikabe',
-        'Slitherlink']
+        'Slitherlink','Sudoku/2D','Sudoku/Butterfly','Sudoku/Chaos',
+        'Sudoku/Clueless-1','Sudoku/Clueless-2','Sudoku/Flower',
+        'Sudoku/Gattai-8','Sudoku/Samurai','Sudoku/Shogun','Sudoku/Sohei',
+        'Sudoku/Sumo','Sudoku/Windmill']
     for bgp in basicGridPuzzles:
         addBasicGridParsers(bgp)
 
@@ -257,17 +261,17 @@ def parserLoop(path,parsers):
             jobj = {'__file__':fname}
             try:
                 parsers[parsername].parseFile(path+'/'+f,jobj)
-                log(f+' : success '+parsername)
+                log(path+'/'+f+' : success '+parsername)
                 success = True
                 break
             except Exception as ex: pass
                 #log('fail: parser = '+parsername+' message = '
                 #    +'%s(%s)'%(type(ex).__name__,str(ex)))
         if success:
-            outf.write(json.dumps(jobj))
+            outf.write(json.dumps(jobj,separators=(',', ':'))) # compact
             outf.write('\n')
         else:
-            log(f+' : fail')
+            log(path+'/'+f+' : fail')
             outf.close()
             logfile.close()
             quit()
@@ -279,8 +283,9 @@ def log(msg):
     print(msg)
     if logfile: logfile.write(msg+'\n')
 
-def main(path,puzzle):
+def main(puzzle):
     global logfile
+    path = 'puzzle_data/'+puzzle
     assert os.path.isdir(path)
     logfile = open(os.path.normpath(path)+'/output.log','w')
     initParsers()
@@ -290,4 +295,4 @@ def main(path,puzzle):
     parserLoop(path,allparsers[puzzle])
     logfile.close()
 
-if __name__ == '__main__': main(sys.argv[1],sys.argv[2])
+if __name__ == '__main__': main(sys.argv[1])

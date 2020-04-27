@@ -70,6 +70,5 @@ funcs = {'Heyawake':fixHeyawake,
          'Nurikabe':fixNurikabe}
 
 if __name__ == '__main__':
-    indir = os.path.normpath(sys.argv[1])
-    puzzle = os.path.normpath(sys.argv[2])
-    funcs[puzzle](indir)
+    puzzle = sys.argv[1]
+    funcs[puzzle]('puzzle_data/'+puzzle)

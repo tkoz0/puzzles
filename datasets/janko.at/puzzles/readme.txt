@@ -15,3 +15,15 @@ LITS
 Nurikabe
 Slitherlink
 Sudoku
+Sudoku/2D
+Sudoku/Butterfly
+Sudoku/Chaos
+Sudoku/Clueless-1
+Sudoku/Clueless-2
+Sudoku/Flower
+Sudoku/Gattai-8
+Sudoku/Samurai
+Sudoku/Shogun
+Sudoku/Sohei
+Sudoku/Sumo
+Sudoku/Windmill
