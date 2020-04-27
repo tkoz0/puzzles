@@ -174,9 +174,10 @@ def addInfos(parser): # standard puzzle info strings
     parser.addString('info') # unknown
     parser.addString('pid') # problem id?
     parser.addMultiString('moves',';') # should be present iff solver is present
+    parser.addInteger('unit') # pixel dimensions of cells?
+    parser.addInteger('unitsize')
 
 def addRCGrid(parser,areas=True): # grids specified by "rows" and "cols"
-    parser.addInteger('unit') # pixel dimensions of cells?
     parser.addInteger('rows')
     parser.addInteger('cols')
     parser.addInteger('size')
@@ -186,7 +187,6 @@ def addRCGrid(parser,areas=True): # grids specified by "rows" and "cols"
     parser.addGrid('solution','rows','cols')
 
 def addSizeGrid(parser,areas=True): # grids specified by "size"
-    parser.addInteger('unit') # pixel dimensions of cells?
     parser.addInteger('rows')
     parser.addInteger('cols')
     parser.addInteger('size')
@@ -200,7 +200,12 @@ def addPxPy(parser): # may be sudoku specific?
     parser.addInteger('patternx')
     parser.addInteger('patterny')
 
-def makeRCGridParser(areas=True):
+# row/col labels, how many rows to expect, use size property for number of cols
+def addRCLabelsSize(parser,count=1):
+    parser.addGrid('rlabels',count,'size')
+    parser.addGrid('clabels',count,'size')
+
+def makeRCGridParser(areas=True): # areas=True was added for a Sudoku workaround
     parser = PuzzleParser()
     addInfos(parser)
     addRCGrid(parser,areas)
@@ -233,6 +238,27 @@ def addSudokuParsers():
     allparsers['Sudoku'] = {'sudoku-rc':sudokurc,
                             'sudoku-size':sudokusize}
 
+def addAbcEndViewParsers():
+    abcendview = makeSizeGridParser()
+    addRCLabelsSize(abcendview,2)
+    abcendview.addString('diagonals')
+    allparsers['Abc-End-View'] = {'abcendview':abcendview}
+
+def addAbcKombiParsers():
+    abckombirc = makeRCGridParser()
+    abckombirc.addGrid('rlabels','depth','rows')
+    abckombirc.addGrid('clabels','depth','cols')
+    allparsers['Abc-Kombi'] = {'abckombi':abckombirc}
+
+# problem is given as (size+2)^2 grid, use the fixed 7x7 as a workaround
+def addAbcPfadParsers():
+    abcpfad = PuzzleParser()
+    addInfos(abcpfad)
+    abcpfad.addInteger('size')
+    abcpfad.addGrid('problem',7,7)
+    abcpfad.addGrid('solution',5,5)
+    allparsers['Abc-Pfad'] = {'abcpfad':abcpfad}
+
 def initParsers():
     addSudokuParsers()
     basicGridPuzzles = ['Heyawake','Akari','Fillomino','LITS','Nurikabe',
@@ -242,10 +268,14 @@ def initParsers():
         'Sudoku/Sumo','Sudoku/Windmill']
     for bgp in basicGridPuzzles:
         addBasicGridParsers(bgp)
+    addAbcEndViewParsers()
+    addAbcKombiParsers()
+    addAbcPfadParsers()
 
 # given a directory and set of parsers, this will try parsers on each file until
 # successful and write the result json objects on their own line to output.json
 def parserLoop(path,parsers):
+    assert len(parsers) > 0
     path = os.path.normpath(path)
     assert os.path.isdir(path)
     files = [f for f in os.listdir(path) if f.endswith('.txt')]
@@ -264,14 +294,14 @@ def parserLoop(path,parsers):
                 log(path+'/'+f+' : success '+parsername)
                 success = True
                 break
-            except Exception as ex: pass
+            except Exception as ex: err = ex
                 #log('fail: parser = '+parsername+' message = '
                 #    +'%s(%s)'%(type(ex).__name__,str(ex)))
         if success:
             outf.write(json.dumps(jobj,separators=(',', ':'))) # compact
             outf.write('\n')
         else:
-            log(path+'/'+f+' : fail')
+            log(path+'/'+f+' : fail : '+str(err))
             outf.close()
             logfile.close()
             quit()

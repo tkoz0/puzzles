@@ -7,6 +7,9 @@ python3 puzzle_fixes.py LITS
 python3 puzzle_fixes.py Nurikabe
 
 # convert the txt files into bulk basic json files
+python3 puzzle_json.py Abc-End-View
+python3 puzzle_json.py Abc-Kombi
+python3 puzzle_json.py Abc-Pfad
 python3 puzzle_json.py Akari
 python3 puzzle_json.py Fillomino
 python3 puzzle_json.py Heyawake

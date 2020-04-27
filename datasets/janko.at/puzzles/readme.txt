@@ -8,6 +8,9 @@ steps
 
 following puzzles should be done with step 2 (fixes and json)
 
+Abc-End-View
+Abc-Kombi
+Abc-Pfad
 Akari
 Fillomino
 Heyawake
