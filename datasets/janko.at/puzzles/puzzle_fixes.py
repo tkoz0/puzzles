@@ -18,6 +18,20 @@ def writeLines(file,lines):
     outf.close()
     print('fixed',file)
 
+def addBeginLine(file):
+    if os.path.isfile(file+'.old'): return # already done
+    lines = getLines(file)
+    assert lines[0] != 'beg\n'
+    lines.insert(0,'begin\n')
+    writeLines(file,lines)
+
+def addEndLine(file):
+    if os.path.isfile(file+'.old'): return # already done
+    lines = getLines(file)
+    assert lines[-1] != 'end\n'
+    lines.append('end\n')
+    writeLines(file,lines)
+
 def fixHeyawake(path):
     file1 = path+'/576.a.txt'
     if not os.path.isfile(file1+'.old'):
@@ -39,11 +53,7 @@ def fixFillomino(path):
         writeLines(file1,lines)
 
 def fixLITS(path):
-    file1 = path+'/068.a.txt'
-    if not os.path.isfile(file1+'.old'):
-        lines = getLines(file1)
-        lines.insert(0,'begin\n') # missing begin line
-        writeLines(file1,lines)
+    addBeginLine(path+'/068.a.txt')
     # files with the "areas" line repeated
     doublearea = [path+('/%d.a.txt'%p) for p in
         [281,282,284,285,286,287,288,289,290] ]
@@ -55,19 +65,63 @@ def fixLITS(path):
             writeLines(file,lines)
 
 def fixNurikabe(path):
-    noend = [path+('/%d.a.txt'%p) for p in
-        [232] ]
-    for file in noend:
-        if not os.path.isfile(file+'.old'):
-            lines = getLines(file)
-            assert lines[-1] != 'end\n'
-            lines.append('end\n')
-            writeLines(file,lines)
+    addEndLine(path+'/232.a.txt')
+    file1 = path+'/080.a.txt'
+    if not os.path.isfile(file1+'.old'):
+        lines = getLines(file1)
+        assert lines[30] == lines[31] == 'moves\n'
+        lines.pop(30)
+        writeLines(file1,lines)
+    file2 = path+'/741.a.txt'
+    if not os.path.isfile(file2+'.old'): # moves property repeated
+        lines = getLines(file2)
+        assert lines[-10] == 'moves\n' and (';' in lines[-2])
+        lines[-10:-1] = []
+        writeLines(file2,lines)
+
+def fixZeltlager2(path):
+    addBeginLine(path+'/321.a.txt')
+
+def fixZahlenlabyrinth(path):
+    file1 = path+'/001.a.txt'
+    if not os.path.isfile(file1+'.old'):
+        lines = getLines(file1)
+        assert lines[10] == '- - - - -\n' == lines[15]
+        assert lines[14] == '- - 3 - -\n' == lines[19]
+        lines[15:20] = [] # remove duplicated board
+        assert lines[16] == '5 6 7 8 9\n' == lines[21]
+        assert lines[20] == '25 22 21 14 13\n' == lines[25]
+        lines[21:26] = []
+        assert lines[22] == '- 3 - 1 2\n' == lines[27]
+        assert lines[26] == '- 1 3 2 -\n' == lines[31]
+        lines[27:32] = []
+        writeLines(file1,lines)
+
+def fixZehnergitter(path):
+    file1 = path+'/330.a.txt'
+    if not os.path.isfile(file1+'.old'): # weird repetition
+        lines = getLines(file1)
+        assert lines[1] == 'puzzle tenner\n'
+        assert lines[8] == '- 0 - 8 - - - - 3 - begin\n'
+        lines[1:9] = []
+        writeLines(file1,lines)
+
+def fixSlitherlink(path):
+    file1 = path+'/0032.a.txt'
+    if not os.path.isfile(file1+'.old'): # repeated solver line
+        lines = getLines(file1)
+        assert lines[2].startswith('solver') and lines[3].startswith('solver')
+        lines.pop(2)
+        writeLines(file1,lines)
 
 funcs = {'Heyawake':fixHeyawake,
          'Fillomino':fixFillomino,
          'LITS':fixLITS,
-         'Nurikabe':fixNurikabe}
+         'Nurikabe':fixNurikabe,
+         'Zeltlager-2':fixZeltlager2,
+         'Zahlenlabyrinth':fixZahlenlabyrinth,
+         'Zehnergitter':fixZehnergitter,
+         'Slitherlink':fixSlitherlink}
 
 if __name__ == '__main__':
     puzzle = sys.argv[1]
