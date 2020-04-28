@@ -114,6 +114,46 @@ def fixSlitherlink(path):
         lines.pop(2)
         writeLines(file1,lines)
 
+def fixUsoone(path):
+    file1 = path+'/051.a.txt'
+    if not os.path.isfile(file1+'.old'): # weird repetition
+        lines = getLines(file1)
+        assert lines[1] == 'puzzle usoone\n'
+        assert lines[8] == 'problembegin\n'
+        lines[1:9] = []
+        writeLines(file1,lines)
+
+def fixView(path):
+    doublesource = [path+'/%03d.a.txt'%d for d in [1,2,3,4]]
+    for file in doublesource:
+        if not os.path.isfile(file+'.old'):
+            lines = getLines(file)
+            assert lines[3].startswith('source')
+            assert lines[4].startswith('source')
+            lines.pop(3)
+            writeLines(file,lines)
+
+def fixSuguru(path):
+    doublesolver8 = [path+'/%03d.a.txt'%d for d in
+        [3,4,5,6,8,9,10,15,18,19,20]]
+    for file in doublesolver8: # line 8 repeated solver
+        if not os.path.isfile(file+'.old'):
+            lines = getLines(file)
+            if file == path+'/003.a.txt': # special case
+                assert lines[-1] == 'eend\n'
+                lines[-1] = 'end\n'
+            assert lines[8] == 'solver Otto Janko\n'
+            lines.pop(8)
+            writeLines(file,lines)
+
+def fixSuraromu(path):
+    file1 = path+'/080.a.txt'
+    if not os.path.isfile(file1+'.old'): # double depth line
+        lines = getLines(file1)
+        assert lines[8].startswith('depth') and lines[9].startswith('depth')
+        lines.pop(9)
+        writeLines(file1,lines)
+
 funcs = {'Heyawake':fixHeyawake,
          'Fillomino':fixFillomino,
          'LITS':fixLITS,
@@ -121,7 +161,11 @@ funcs = {'Heyawake':fixHeyawake,
          'Zeltlager-2':fixZeltlager2,
          'Zahlenlabyrinth':fixZahlenlabyrinth,
          'Zehnergitter':fixZehnergitter,
-         'Slitherlink':fixSlitherlink}
+         'Slitherlink':fixSlitherlink,
+         'Usoone':fixUsoone,
+         'View':fixView,
+         'Suguru':fixSuguru,
+         'Suraromu':fixSuraromu}
 
 if __name__ == '__main__':
     puzzle = sys.argv[1]

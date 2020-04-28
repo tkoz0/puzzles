@@ -289,7 +289,8 @@ def initParsers():
         'Sudoku/Clueless-1','Sudoku/Clueless-2','Sudoku/Flower',
         'Sudoku/Gattai-8','Sudoku/Samurai','Sudoku/Shogun','Sudoku/Sohei',
         'Sudoku/Sumo','Sudoku/Windmill','Zipline','Zeltlager','Zeltlager-2',
-        'Zahlenschlange','Zehnergitter']
+        'Zahlenschlange','Zehnergitter','Usoone','Usotatami','Vier-Winde',
+        'View','Sikaku','Suguru','Sukoro','Sumdoku','Sukrokuro','Suraromu']
     for bgp in basicGridPuzzles:
         addBasicGridParsers(bgp)
     addAbcEndViewParsers()
