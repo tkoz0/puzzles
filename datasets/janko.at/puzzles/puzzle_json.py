@@ -151,8 +151,15 @@ class PuzzleParser:
                     #log('error: '+prop)
                     #i += 1
             elif prop in self.properties:
+                #assert prop not in jobj # dont overwrite repeated property
                 typ,sett = self.properties[prop]
-                try: i,jobj[prop] = parseValue(lines,i,typ,sett,jobj)
+                try:
+                    i,value = parseValue(lines,i,typ,sett,jobj)
+                    # check if value is repeated (happens in improper data)
+                    # if it is, just ensure it is the same thing
+                    if (prop in jobj) and (value != jobj[prop]):
+                        raise ParseError('repeated prop = '+prop)
+                    jobj[prop] = value
                 except Exception as ex: raise ex
                     #jobj[prop] = None # indicates failure
                     #log('error: '+prop)
@@ -187,8 +194,8 @@ def addRCGrid(parser,areas=True): # grids specified by "rows" and "cols"
     parser.addGrid('solution','rows','cols')
 
 def addSizeGrid(parser,areas=True): # grids specified by "size"
-    parser.addInteger('rows')
-    parser.addInteger('cols')
+    #parser.addInteger('rows')
+    #parser.addInteger('cols')
     parser.addInteger('size')
     parser.addInteger('depth')
     parser.addGrid('problem','size','size')
@@ -259,18 +266,38 @@ def addAbcPfadParsers():
     abcpfad.addGrid('solution',5,5)
     allparsers['Abc-Pfad'] = {'abcpfad':abcpfad}
 
+def addZiegelmauerParsers():
+    ziegelmauer = makeSizeGridParser()
+    ziegelmauer.removeProp('areas')
+    ziegelmauer.addString('areas') # observed to be "single" or "double"
+    allparsers['Ziegelmauer'] = {'ziegelmauer':ziegelmauer}
+
+def addZahlenkreuzParsers():
+    zahlenkreuz = makeSizeGridParser()
+    addRCLabelsSize(zahlenkreuz)
+    allparsers['Zahlenkreuz'] = {'zahlenkreuz':zahlenkreuz}
+
+def addZahlenlabyrinthParsers():
+    zahlenlabyrinth = makeSizeGridParser()
+    zahlenlabyrinth.addGrid('lines','size','size')
+    allparsers['Zahlenlabyrinth'] = {'zahlenlabyrinth':zahlenlabyrinth}
+
 def initParsers():
     addSudokuParsers()
     basicGridPuzzles = ['Heyawake','Akari','Fillomino','LITS','Nurikabe',
         'Slitherlink','Sudoku/2D','Sudoku/Butterfly','Sudoku/Chaos',
         'Sudoku/Clueless-1','Sudoku/Clueless-2','Sudoku/Flower',
         'Sudoku/Gattai-8','Sudoku/Samurai','Sudoku/Shogun','Sudoku/Sohei',
-        'Sudoku/Sumo','Sudoku/Windmill']
+        'Sudoku/Sumo','Sudoku/Windmill','Zipline','Zeltlager','Zeltlager-2',
+        'Zahlenschlange','Zehnergitter']
     for bgp in basicGridPuzzles:
         addBasicGridParsers(bgp)
     addAbcEndViewParsers()
     addAbcKombiParsers()
     addAbcPfadParsers()
+    addZiegelmauerParsers()
+    addZahlenkreuzParsers()
+    addZahlenlabyrinthParsers()
 
 # given a directory and set of parsers, this will try parsers on each file until
 # successful and write the result json objects on their own line to output.json
@@ -295,6 +322,7 @@ def parserLoop(path,parsers):
             jobj = {'__file__':fname}
             try:
                 parsers[parsername].parseFile(path+'/'+f,jobj)
+                print('success:',path+'/'+f)
                 log(path+'/'+f+' : success '+parsername)
                 success = True
                 break
