@@ -17,7 +17,7 @@ import json,sys,os
 # the intention is to turn the data into json so that the postprocessing and
 # puzzle correctness verification can be done more easily
 
-# usage: puzzle_json.py <puzzle .txt dir> <puzzle type>
+# usage: puzzle_json.py <puzzle subdir>
 
 # enumeration of value types
 STRING = 0 # <prop> <value>

@@ -2,7 +2,6 @@ import os
 from bs4 import BeautifulSoup
 
 # scrypt to extract puzzle data from a downloaded copy of janko.at
-# usage: puzzle_data.py <Raetsel dir> <output dir>
 
 indir = 'www.janko.at/Raetsel'
 outdir = 'puzzle_data'
