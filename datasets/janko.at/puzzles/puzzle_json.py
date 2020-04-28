@@ -278,14 +278,18 @@ def parserLoop(path,parsers):
     assert len(parsers) > 0
     path = os.path.normpath(path)
     assert os.path.isdir(path)
+    if os.path.isfile(path+'/output.success'):
+        print('already completed:',path)
+        return
+    else: print('processing dir:',path)
     files = [f for f in os.listdir(path) if f.endswith('.txt')]
     outf = open(path+'/'+'output.json','w')
     for f in sorted(files):
-        print('processing: '+f)
+        #print('processing: '+f)
         fname,fext = os.path.splitext(f)
         success = False
         for parsername in parsers:
-            print('trying parser:',parsername)
+            #print('trying parser:',parsername)
             # keep original file name available, should not be named the same
             # as any of the properties in the puzzle files
             jobj = {'__file__':fname}
@@ -301,16 +305,21 @@ def parserLoop(path,parsers):
             outf.write(json.dumps(jobj,separators=(',', ':'))) # compact
             outf.write('\n')
         else:
+            print('failed:',path+'/'+f)
             log(path+'/'+f+' : fail : '+str(err))
             outf.close()
             logfile.close()
             quit()
+    # use a file to mark that parsing was successful
+    successfile = open(path+'/output.success','w')
+    successfile.write('success\n')
+    successfile.close()
     outf.close()
 
 # for writing info/error messages
 logfile = None
 def log(msg):
-    print(msg)
+    #print(msg)
     if logfile: logfile.write(msg+'\n')
 
 def main(puzzle):

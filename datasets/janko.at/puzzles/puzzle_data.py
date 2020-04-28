@@ -1,11 +1,12 @@
-import os,sys
+import os
 from bs4 import BeautifulSoup
 
 # scrypt to extract puzzle data from a downloaded copy of janko.at
 # usage: puzzle_data.py <Raetsel dir> <output dir>
 
-indir = os.path.normpath(sys.argv[1])
-outdir = os.path.normpath(sys.argv[2])
+indir = 'www.janko.at/Raetsel'
+outdir = 'puzzle_data'
+os.mkdir(outdir)
 
 # relpath excludes indir path
 # this is to determine path in the output dir to keep the same structure
