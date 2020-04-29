@@ -1,18 +1,7 @@
 #!/bin/bash
 
 # fix errors in txt files (straight from the <script id="data" ..> tags)
-python3 puzzle_fixes.py Fillomino
-python3 puzzle_fixes.py Heyawake
-python3 puzzle_fixes.py LITS
-python3 puzzle_fixes.py Nurikabe
-python3 puzzle_fixes.py Slitherlink
-python3 puzzle_fixes.py Suguru
-python3 puzzle_fixes.py Suraromu
-python3 puzzle_fixes.py Usoone
-python3 puzzle_fixes.py View
-python3 puzzle_fixes.py Zahlenlabyrinth
-python3 puzzle_fixes.py Zehnergitter
-python3 puzzle_fixes.py Zeltlager-2
+python3 puzzle_fixes.py puzzle_fixes.txt
 
 # convert the txt files into bulk basic json files
 python3 puzzle_json.py Abc-End-View
@@ -60,4 +49,5 @@ python3 puzzle_json.py Zipline
 
 # special variants, provided as images
 touch puzzle_data/Varianten/output.ignore
+# language based
 touch puzzle_data/Zitatemix/output.ignore
