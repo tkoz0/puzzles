@@ -199,6 +199,69 @@ md5sums 09adb83814b293b370748d47c5879d72 1f1ee7e6cc3c79e83cf7397782a73738
 delete_line 3
 end
 
+# -- Wolkenkratzer --
+
+# 2 puzzles, for now removing the malformed puzzle (has incomplete solution)
+file Wolkenkratzer/410.a.txt
+md5sums 91042f1ccea599179e91595d067f171a eb94f3b660f398f5c2129e6e1dc4c7f4
+delete_line 1-18
+end
+
+# -- Yajilin --
+
+# moves line doubled
+file Yajilin/270.a.txt
+md5sums 4ebd458ebc6d63290bd34674bba04e14 b4e304a8aad21fe3326bb12f2239eeed
+delete_line 36
+end
+
+# no end line
+file Yajilin/347.a.txt
+md5sums cb1881594a9bd98abf8d25b0b89bf6e9 a149b21ad920b6c17a0a02d092ca229e
+add_end_line
+end
+
+# -- Yajisan-Kazusan --
+
+# weird applet end line at end
+file Yajisan-Kazusan/001.a.txt
+md5sums 2acabbac847863ea0bfa4bed36f003e1 0375261ac81c78c7f89881fff14b8f50
+delete_line -1
+end
+
+# files not named with numbers
+file Yajisan-Kazusan/Inverted.txt
+md5sums 7e94e53f06052713bdd19c97c885743d c92c8c177d1ef392686c70aa01ecc499
+delete_line 0-2
+edit_line 8 - 1n - 1n - 0e - 2e - - 1e - -
+edit_line 9 - - - - 3e - 2e - 1e 3s - - -
+end
+file Yajisan-Kazusan/Liar-Arrows.txt
+md5sums 22a57ae47c094afd0c8b1300bbf9943f 086e5cafed82587a1ee3103439a79b84
+delete_line 0-2
+end
+file Yajisan-Kazusan/No-2x2.txt
+md5sums 0262b9aaccd9232253c9713063011253 1f893dfbc83ae8e3b31290730d5b303e
+delete_line 0-2
+end
+file Yajisan-Kazusan/Odd.txt
+md5sums 0e85bb9950be58ecbe5fcf22964ad2d1 d65c853a73f694d9b17d3d0a6b53b74e
+delete_line 0-2
+end
+file Yajisan-Kazusan/Off-By-One.txt
+md5sums 5e023830c3c5a27e96002d2f68cfbe9e b2b4ab21108d966097084b5e7af9efad
+delete_line 0-2
+end
+
+# -- Yin-Yang --
+
+# end line in wrong place
+file Yin-Yang/004.a.txt
+md5sums f1f5e066335ae41bba7b0f5288e0ff15 b73c0e15ee0f441788f813447d890e03
+add_end_line
+delete_line 26
+end
+
 # -- Zahlenlabyrinth --
 
 # puzzle grids doubled

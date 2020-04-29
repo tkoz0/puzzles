@@ -179,6 +179,7 @@ def addInfos(parser): # standard puzzle info strings
     parser.addString('source') # url
     parser.addString('title')
     parser.addString('info') # unknown
+    parser.addString('mail') # email adddress
     parser.addString('pid') # problem id?
     parser.addMultiString('moves',';') # should be present iff solver is present
     parser.addInteger('unit') # pixel dimensions of cells?
@@ -282,15 +283,24 @@ def addZahlenlabyrinthParsers():
     zahlenlabyrinth.addGrid('lines','size','size')
     allparsers['Zahlenlabyrinth'] = {'zahlenlabyrinth':zahlenlabyrinth}
 
+def addWolkenkratzerParsers():
+    wolkenkratzer = makeSizeGridParser()
+    addRCLabelsSize(wolkenkratzer,2)
+    allparsers['Wolkenkratzer'] = {'wolkenkratzer':wolkenkratzer}
+    allparsers['Wolkenkratzer-2'] = {'wolkenkratzer':wolkenkratzer}
+
 def initParsers():
-    addSudokuParsers()
+    addSudokuParsers() # adds "area" as empty for a workaround
+    # many puzzles are similar and can be parsed with common parsers
     basicGridPuzzles = ['Heyawake','Akari','Fillomino','LITS','Nurikabe',
         'Slitherlink','Sudoku/2D','Sudoku/Butterfly','Sudoku/Chaos',
         'Sudoku/Clueless-1','Sudoku/Clueless-2','Sudoku/Flower',
         'Sudoku/Gattai-8','Sudoku/Samurai','Sudoku/Shogun','Sudoku/Sohei',
         'Sudoku/Sumo','Sudoku/Windmill','Zipline','Zeltlager','Zeltlager-2',
         'Zahlenschlange','Zehnergitter','Usoone','Usotatami','Vier-Winde',
-        'View','Sikaku','Suguru','Sukoro','Sumdoku','Sukrokuro','Suraromu']
+        'View','Sikaku','Suguru','Sukoro','Sumdoku','Sukrokuro','Suraromu',
+        'Yagit','Yajilin','Yajisan-Kazusan','Yin-Yang','Yonmasu','Yosenabe',
+        'Yakuso']
     for bgp in basicGridPuzzles:
         addBasicGridParsers(bgp)
     addAbcEndViewParsers()
@@ -299,6 +309,7 @@ def initParsers():
     addZiegelmauerParsers()
     addZahlenkreuzParsers()
     addZahlenlabyrinthParsers()
+    addWolkenkratzerParsers() # also adds Wolkenkratzer-2
 
 # given a directory and set of parsers, this will try parsers on each file until
 # successful and write the result json objects on their own line to output.json
@@ -334,7 +345,7 @@ def parserLoop(path,parsers):
             outf.write(json.dumps(jobj,separators=(',', ':'))) # compact
             outf.write('\n')
         else:
-            print('failed:',path+'/'+f)
+            print('failed:',path+'/'+f,':',str(err))
             log(path+'/'+f+' : fail : '+str(err))
             outf.close()
             logfile.close()

@@ -36,6 +36,15 @@ python3 puzzle_json.py Usoone
 python3 puzzle_json.py Usotatami
 python3 puzzle_json.py Vier-Winde
 python3 puzzle_json.py View
+python3 puzzle_json.py Wolkenkratzer
+python3 puzzle_json.py Wolkenkratzer-2
+python3 puzzle_json.py Yagit
+python3 puzzle_json.py Yajilin
+python3 puzzle_json.py Yajisan-Kazusan
+python3 puzzle_json.py Yakuso
+python3 puzzle_json.py Yin-Yang
+python3 puzzle_json.py Yonmasu
+python3 puzzle_json.py Yosenabe
 python3 puzzle_json.py Zahlenkreuz
 python3 puzzle_json.py Zahlenlabyrinth
 python3 puzzle_json.py Zahlenschlange

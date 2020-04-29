@@ -107,6 +107,39 @@ def runCommand(command):
         md5new = None
         print('changes saved')
 
+def hardCodedSpecial(): # special cases that dont fit the commands above
+    # Yajisan-Kazusan 2 puzzles in 1 file
+    yk_l = datadir+'/Yajisan-Kazusan/Liar.txt'
+    print('loading file:',yk_l)
+    if os.path.isfile(datadir+'/Yajisan-Kazusan/Liar.1.txt'):
+        print('skipping, already edited')
+    else:
+        assert hashlib.md5(open(yk_l,'rb').read()).hexdigest() == 'b3a4edbdc16be77966de7b152da01ae8'
+        lines = open(yk_l,'r').read().splitlines()
+        assert lines[3] == lines[39] == 'begin'
+        assert lines[37] == lines[52] == 'end'
+        lines1 = lines[3:38]
+        lines2 = lines[39:53]
+        output1 = ''
+        output2 = ''
+        for line in lines1: output1 += line + '\n'
+        for line in lines2: output2 += line + '\n'
+        assert hashlib.md5(output1.encode()).hexdigest() == '2b33c2bf360c532b423003aff0b0c02c'
+        assert hashlib.md5(output2.encode()).hexdigest() == '43b73d21e0469bcbfe7515d58bf3e1e3'
+        os.rename(yk_l,yk_l+'.old')
+        outfile1 = open(datadir+'/Yajisan-Kazusan/Liar.1.txt','w')
+        outfile2 = open(datadir+'/Yajisan-Kazusan/Liar.2.txt','w')
+        outfile1.write(output1)
+        outfile2.write(output2)
+        outfile1.close()
+        outfile2.close()
+        print('changes saved')
+    # Wolkenkratzer 2 puzzles in 1 file
+    wk410 = datadir+'/Wolkenkratzer/410.a.txt'
+    # for now, just removing the malformed puzzle (incomplete solution)
+    # this is done in puzzle_fixes.txt
+
 if __name__ == '__main__':
     for command in commandsGenerator(sys.argv[1]): runCommand(command)
+    hardCodedSpecial()
 
