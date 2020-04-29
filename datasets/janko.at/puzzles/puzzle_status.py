@@ -1,4 +1,4 @@
-import os,sys
+import os
 
 # groups the subdirectories of puzzle_data/ into 3:
 # - done (successful conversion to json, when output.success file is present)
@@ -28,10 +28,10 @@ def explore(path):
 
 explore('puzzle_data')
 
-_,done = zip(*list(filter(lambda x : x[0] == 'done', results)))
-_,notdone = zip(*list(filter(lambda x : x[0] == 'notdone', results)))
-_,notxt = zip(*list(filter(lambda x : x[0] == 'notxt', results)))
-_,ignore = zip(*list(filter(lambda x : x[0] == 'ignore', results)))
+done = [x[1] for x in results if x[0] == 'done']
+notdone = [x[1] for x in results if x[0] == 'notdone']
+notxt = [x[1] for x in results if x[0] == 'notxt']
+ignore = [x[1] for x in results if x[0] == 'ignore']
 
 print('-- DONE --')
 for dir in done: print(dir)
