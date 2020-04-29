@@ -32,6 +32,13 @@ python3 puzzle_json.py Sukoro
 python3 puzzle_json.py Sukrokuro
 python3 puzzle_json.py Sumdoku
 python3 puzzle_json.py Suraromu
+python3 puzzle_json.py Tairupeinto
+python3 puzzle_json.py Tapa
+python3 puzzle_json.py Tasukuea
+python3 puzzle_json.py Tatamibari
+python3 puzzle_json.py Tateboo-Yokoboo
+python3 puzzle_json.py Tetroid
+python3 puzzle_json.py Thermometer
 python3 puzzle_json.py Tohu-Wa-Vohu
 python3 puzzle_json.py Toichika
 python3 puzzle_json.py Trace-Numbers

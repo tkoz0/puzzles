@@ -225,12 +225,19 @@ def makeSizeGridParser(areas=True):
     addSizeGrid(parser,areas)
     return parser
 
+def makeSizeGridRCLabelsParser(rows=1,areas=True):
+    parser = makeSizeGridParser(areas)
+    addRCLabelsSize(parser,rows)
+    return parser
+
 # map subdir -> (dict of parsers)
 # a dict of parsers maps parsername -> PuzzleParser object
 allparsers = dict()
 
 PARSER_RCGRID = makeRCGridParser()
 PARSER_SIZEGRID = makeSizeGridParser()
+PARSER_SIZEGRID_RCLABELS_1 = makeSizeGridRCLabelsParser(1)
+PARSER_SIZEGRID_RCLABELS_2 = makeSizeGridRCLabelsParser(2)
 
 def addBasicGridParsers(puzzle):
     allparsers[puzzle] = { puzzle.lower()+'-rc': PARSER_RCGRID,
@@ -246,6 +253,7 @@ def addSudokuParsers():
     allparsers['Sudoku'] = {'sudoku-rc':sudokurc,
                             'sudoku-size':sudokusize}
 
+# has property 'diagonals'
 def addAbcEndViewParsers():
     abcendview = makeSizeGridParser()
     addRCLabelsSize(abcendview,2)
@@ -268,8 +276,7 @@ def addAbcPfadParsers():
     allparsers['Abc-Pfad'] = {'abcpfad':abcpfad}
 
 def addZiegelmauerParsers():
-    ziegelmauer = makeSizeGridParser()
-    ziegelmauer.removeProp('areas')
+    ziegelmauer = makeSizeGridParser(False)
     ziegelmauer.addString('areas') # observed to be "single" or "double"
     allparsers['Ziegelmauer'] = {'ziegelmauer':ziegelmauer}
 
@@ -283,11 +290,11 @@ def addZahlenlabyrinthParsers():
     zahlenlabyrinth.addGrid('lines','size','size')
     allparsers['Zahlenlabyrinth'] = {'zahlenlabyrinth':zahlenlabyrinth}
 
-def addWolkenkratzerParsers():
-    wolkenkratzer = makeSizeGridParser()
-    addRCLabelsSize(wolkenkratzer,2)
-    allparsers['Wolkenkratzer'] = {'wolkenkratzer':wolkenkratzer}
-    allparsers['Wolkenkratzer-2'] = {'wolkenkratzer':wolkenkratzer}
+def addThermometerParsers():
+    thermometer = makeSizeGridParser()
+    thermometer.addGrid('labels','size','size')
+    addRCLabelsSize(thermometer)
+    allparsers['Thermometer'] = {'thermometer':thermometer}
 
 def initParsers():
     addSudokuParsers() # adds "area" as empty for a workaround
@@ -301,16 +308,19 @@ def initParsers():
         'View','Sikaku','Suguru','Sukoro','Sumdoku','Sukrokuro','Suraromu',
         'Yagit','Yajilin','Yajisan-Kazusan','Yin-Yang','Yonmasu','Yosenabe',
         'Yakuso','Tueren','Tripletts','Trinudo','Trace-Numbers','Toichika',
-        'Tohu-Wa-Vohu']
-    for bgp in basicGridPuzzles:
-        addBasicGridParsers(bgp)
+        'Tohu-Wa-Vohu','Tetroid','Tateboo-Yokoboo','Tatamibari','Tasukuea',
+        'Tapa']
+    for bgp in basicGridPuzzles: addBasicGridParsers(bgp)
     addAbcEndViewParsers()
     addAbcKombiParsers()
     addAbcPfadParsers()
     addZiegelmauerParsers()
     addZahlenkreuzParsers()
     addZahlenlabyrinthParsers()
-    addWolkenkratzerParsers() # also adds Wolkenkratzer-2
+    allparsers['Wolkenkratzer'] = {'wolkenkratzer':PARSER_SIZEGRID_RCLABELS_2}
+    allparsers['Wolkenkratzer-2'] = {'wolkenkratzer':PARSER_SIZEGRID_RCLABELS_2}
+    addThermometerParsers()
+    allparsers['Tairupeinto'] = {'tairupeinto':PARSER_SIZEGRID_RCLABELS_1}
 
 # given a directory and set of parsers, this will try parsers on each file until
 # successful and write the result json objects on their own line to output.json

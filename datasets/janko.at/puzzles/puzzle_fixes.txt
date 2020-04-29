@@ -171,6 +171,51 @@ md5sums 43824a64e4913cb73e021053ca738321 b13c20669f70b9b6b6a821f578b7691b
 delete_line 9
 end
 
+# -- Tapa --
+
+# doubled solver
+file Tapa/150.a.txt
+md5sums ac94ae9551265cb55ed06aa6d90acf1a ca102fd9b5da06b65cc0d11e526310a5
+delete_line 4,40-48
+end
+
+# -- Tateboo-Yokoboo --
+
+# repeated 'solver'
+file Tateboo-Yokoboo/010.a.txt
+md5sums add1fa442ceea252a5c81869764e92d2 e6e13723a49f8a93c9eab981bec2c161
+delete_line 4
+end
+
+# -- Tasukuea --
+
+# end line in wrong place
+file Tasukuea/008.a.txt
+md5sums 29ef269814f6089faa12c31ad30f9396 9c015454d53d94bc903d0d66748cbc33
+edit_line -1 jb,0;ib,0;ia,0;ja,0;
+add_end_line
+end
+
+# -- Thermometer --
+
+# missing 'moves' line
+file Thermometer/010.a.txt
+md5sums ab2eaf7d26c658adca02c5f82918a0f1 2463a4e9e461f6270d3a646e26532378
+insert_line -8 moves
+end
+
+# 'end' line in wrong place
+file Thermometer/056.a.txt
+md5sums 58abf9c110658da20c27412fd2aae1ae 388279222b4e579e538b4e27254456e1
+delete_line -6
+add_end_line
+end
+file Thermometer/107.a.txt
+md5sums 45570daf77429bf3d33aabbdcdb758f6 dd3aeb45cb6d700dfc9ec74c16cf221c
+edit_line -1 x x - - - - x x x -
+add_end_line
+end
+
 # -- Tueren --
 
 # incorrect header lines
