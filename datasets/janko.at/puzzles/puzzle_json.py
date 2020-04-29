@@ -300,7 +300,8 @@ def initParsers():
         'Zahlenschlange','Zehnergitter','Usoone','Usotatami','Vier-Winde',
         'View','Sikaku','Suguru','Sukoro','Sumdoku','Sukrokuro','Suraromu',
         'Yagit','Yajilin','Yajisan-Kazusan','Yin-Yang','Yonmasu','Yosenabe',
-        'Yakuso']
+        'Yakuso','Tueren','Tripletts','Trinudo','Trace-Numbers','Toichika',
+        'Tohu-Wa-Vohu']
     for bgp in basicGridPuzzles:
         addBasicGridParsers(bgp)
     addAbcEndViewParsers()

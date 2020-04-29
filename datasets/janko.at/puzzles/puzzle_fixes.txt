@@ -171,6 +171,14 @@ md5sums 43824a64e4913cb73e021053ca738321 b13c20669f70b9b6b6a821f578b7691b
 delete_line 9
 end
 
+# -- Tueren --
+
+# incorrect header lines
+file Tueren/220.a.txt
+md5sums 858c2227a151531eeca1a2ec4eb7488a cb221125f3adc692deae2ef13793349c
+delete_line 1-7
+end
+
 # -- Usoone --
 
 # strange repeated info

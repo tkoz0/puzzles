@@ -32,6 +32,12 @@ python3 puzzle_json.py Sukoro
 python3 puzzle_json.py Sukrokuro
 python3 puzzle_json.py Sumdoku
 python3 puzzle_json.py Suraromu
+python3 puzzle_json.py Tohu-Wa-Vohu
+python3 puzzle_json.py Toichika
+python3 puzzle_json.py Trace-Numbers
+python3 puzzle_json.py Trinudo
+python3 puzzle_json.py Tripletts
+python3 puzzle_json.py Tueren
 python3 puzzle_json.py Usoone
 python3 puzzle_json.py Usotatami
 python3 puzzle_json.py Vier-Winde
