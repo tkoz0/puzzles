@@ -60,9 +60,22 @@ def verifyFile(file,puzzle):
             else:
                 grid[r][c] = int(grid[r][c])
                 assert grid[r][c] > 0
-    solver = SolveSudoku(grid,br,bc)
-    solver.solveBacktrack()
+    print('-'*32)
+    for r in grid: print(' '.join(str(c) if c else '.' for c in r))
+    solver = SolveSudoku(grid,(br,bc))
+    print('-'*32)
+    print(solver.solve())
+    print('-'*32)
+    for r in range(size):
+        cells = solver._grid[r*size:r*size+size]
+        possible = tuple(''.join(str(i) for i in range(1,size+1) if c.nums[i-1]) for c in cells)
+        plen = max(len(p) for p in possible)
+        print(' '.join(p if len(p) == 1 else '.' for p in possible)+' | ',' '.join('%10s'%p for p in possible))
+    print('-'*32)
     # TODO end temporary section
 
+print('puzzle_verify.py')
 if __name__ == '__main__':
+    #verifyFile('sudoku/0001.a.htm','sudoku')
+    #quit()
     main(sys.argv[1],sys.argv[2],sys.argv[3])
