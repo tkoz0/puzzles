@@ -44,7 +44,11 @@ def verifyFile(file,puzzle):
             print('\n'.join(data))
             quit()
     grid = result['problem']
-    if 'size' in result:
+    if 'pattern' in result:
+        br = bc = int(result['pattern'])
+    elif 'patternx' in result:
+        br,bc = int(result['patterny']),int(result['patternx'])
+    elif 'size' in result:
         size = int(result['size'])
         assert int(math.sqrt(size))**2 == size
         br = bc = int(math.sqrt(size))
@@ -64,18 +68,22 @@ def verifyFile(file,puzzle):
     for r in grid: print('|',' '.join(str(c) if c else '.' for c in r),'|')
     ####solve puzzle
 #    grid=[[0]*9 for _ in range(9)]
-    solver = SolveSudoku(grid,(br,bc))
     print('-'*21)
-    for r in range(size):
-        cells = solver._cells[r*size:r*size+size]
-        possible = tuple(''.join(str(i) for i in range(1,size+1) if c.nums[i-1]) for c in cells)
-        plen = max(len(p) for p in possible)
-        print('|',' '.join(p if len(p) == 1 else '.' for p in possible),'|',' '.join('%9s'%p for p in possible))
+    solver = SolveSudoku(grid,(br,bc))
+    assert solver.solution is not None
+    assert not solver.ambiguous
+    for row in solver.solution:
+        print('|',' '.join(map(str,row)),'|')
+    #for r in range(size):
+    #    cells = solver._cells[r*size:r*size+size]
+    #    possible = tuple(''.join(str(i) for i in range(1,size+1) if c.nums[i-1]) for c in cells)
+    #    plen = max(len(p) for p in possible)
+    #    print('|',' '.join(p if len(p) == 1 else '.' for p in possible),'|',' '.join('%9s'%p for p in possible))
     print('-'*21)
     # TODO end temporary section
 
 print('puzzle_verify.py')
 if __name__ == '__main__':
-    verifyFile('sudoku/0001.a.htm','sudoku')
-    quit()
+    #verifyFile('sudoku/0001.a.htm','sudoku')
+    #quit()
     main(sys.argv[1],sys.argv[2],sys.argv[3])
