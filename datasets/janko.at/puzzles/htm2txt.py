@@ -16,6 +16,10 @@ input_dir = os.path.normpath(sys.argv[1])
 output_dir = os.path.normpath(sys.argv[2])
 
 assert os.path.isdir(input_dir)
+
+if not os.path.isdir(output_dir):
+    os.mkdir(output_dir)
+
 assert os.path.isdir(output_dir)
 
 files = os.listdir(input_dir)
