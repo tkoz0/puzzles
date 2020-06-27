@@ -1,5 +1,5 @@
 datasets/exclude/
 datasets/janko.at/puzzles/www.janko.at/
-datasets/janko.at/puzzles/puzzle_data/
+datasets/janko.at/puzzles/scrypts/*/
 datasets/janko.at/puzzles/__unused__/
-datasets/janko.at/puzzles/sudoku*
+__pycache__
