@@ -53,6 +53,9 @@ class PuzzleParser:
         assert name not in self.params
         assert type(substr) == str
         self.params[name] = (PuzzleParser.LONG_STRING,substr)
+    def removeParam(self,name):
+        assert name in self.params
+        self.params.pop(name)
     
     # function to parse a file with this parser
     # file should be an iterable of lines
