@@ -22,20 +22,19 @@ class SolveSudoku:
     The areas may be rectangular (regular sudoku), irregularly shaped, or even
     disabled (making the puzzle a latin square).
     
-    Solving will set self.solution to a N*N array of integers, or leave it as
-    None if there is no solution. Additionally, self.ambiguous is set to true if
-    multiple solutions are found, False otherwise.
+    Solving will find all solutions with the current behavior. Each element of
+    self.solutions (if any) will be N*N arrays of integers.
     
     Member variables (meant for external access):
     - self.N = grid side length parameter
-    - self.solution = first solution grid found (N*N array of integers 1..N)
-    - self.ambiguous = True if a 2nd solution is found
+    - self.solutions = list of solution grids found (N*N array of integers 1..N)
     Member variables (meant to be internal):
     - self._cells[i] = _Cell object at (row,col) = (i//N,i%N)
     - self._areas[i] = list of N cells (by index) in area i
     - self._areasof[i] = list of areas (by index) containing cell i
     Read only variables (after initialization): _areas, _areasof
     
+    TODO: support a max solutions limit and terminate recursion after that
     TODO: support variants with nonstandard shapes (not a square)
     TODO (maybe): add completed numbers information for each area so that the
     positional elimination propagator can stop if n was already narrowed to 1
@@ -102,8 +101,7 @@ class SolveSudoku:
         self.N = len(problem)
         if self.N < 1 or not SolveSudoku._check_givens(problem,self.N):
             raise InvalidPuzzleException('sudoku givens are invalid')
-        self.solution = None
-        self.ambiguous = False
+        self.solutions = []
         self._cells = [SolveSudoku._Cell(self.N) for _ in range(self.N**2)]
         # start by creating rows and cols as areas
         self._areas = [list(range(self.N*i,self.N*(i+1)))
@@ -246,7 +244,7 @@ class SolveSudoku:
     
     def _backtrack(self):
         ''' Make a guess when logic strategies do not solve it '''
-        if self.ambiguous: return
+        # TODO add recursion terminator (after finding n of solutions maybe)
         # loop to find a cell with minimum possible values
         sindex,scell = -1,None
         for i,cell in enumerate(self._cells):
@@ -256,14 +254,11 @@ class SolveSudoku:
                 (scell is None or cell.count < scell.count):
                 sindex,scell = i,cell
         if scell is None: # every cell.count == 1 (puzzle solved)
-            if self.solution is not None:
-                self.ambiguous = True # 2nd solution found
-            else: # set solution to the one found
-                # pick the single possible value for each cell
-                self.solution = [ [ [ i for i in range(1,self.N+1)
-                                      if self._cells[self.N*r+c].possible(i)][0]
-                                    for c in range(self.N)]
-                                  for r in range(self.N)]
+            self.solutions.append(
+                [ [ [ i for i in range(1,self.N+1)
+                      if self._cells[self.N*r+c].possible(i)][0]
+                    for c in range(self.N)]
+                  for r in range(self.N)] )
             return
         # save original cell data so a copy can be made for backtracking search
         original_cells = self._cells
