@@ -15,15 +15,24 @@ comment on the puzzle specific parser function.
 '''
 
 import os,sys,json,math
+
 from puzzle_parser import PuzzleParser
+from puzzle_parser import ParseException
+
 import puzzle_utils
+
 from puzzle_solvers import SolveSudoku
+from puzzle_solvers import SolveHakyuu
+
+class VerifyException(Exception):
+    ''' Thrown when an issue occurs with verifying a puzzle '''
 
 def main(input_dir,output_dir,puzzle):
     ''' loops over all files to process '''
     input_dir = os.path.normpath(input_dir)
     output_dir = os.path.normpath(output_dir)
     assert os.path.isdir(input_dir)
+    # make output dir if not exist
     if not os.path.isdir(output_dir):
         os.mkdir(output_dir)
     assert os.path.isdir(output_dir)
@@ -47,13 +56,17 @@ def convert(infile,outfile,puzzle):
     try: # find function to use based on puzzle name
         converter = globals()['convert_'+puzzle]
         outdata = converter(infile,list(open(infile,'r')))
+        assert type(outdata) == dict, 'converter did not return dict type'
         outfile = open(outfile,'w')
-        outfile.write(json.dumps(outdata,separators=(',',':')))
+        #outfile.write(json.dumps(outdata,separators=(',',':')))
+        outfile.write(json.dumps(outdata,indent=4)) # for readability
         outfile.close()
         return True
-    except Exception as e:
-        print('ERROR:',type(e).__name__,str(e))
-        return False
+    except VerifyException as e:
+        print('failed to verify:',str(e))
+    except ParseException as e:
+        print('failed to parse:',str(e))
+    return False
 
 def convert_sudoku(filename,lines):
     '''
@@ -74,48 +87,91 @@ def convert_sudoku(filename,lines):
     parsed = None
     try: parsed = parser1.parse(lines)
     except:
-        try: parsed = parser2.parse(lines)
-        except: pass
+        parsed = parser2.parse(lines)
     if parsed is None:
-        print('ERROR: parsers failed')
-        return
+        raise ParseException('ERROR: parsers failed')
     outdata = dict() # represent the sudoku object
     outdata['__file__'] = filename
     outdata['__data__'] = parsed
-    diagonals = ('options' in parsed and result['options'] == 'diagonals') \
+    # parsing the puzzle from the text file data
+    if 'puzzle' not in parsed:
+        raise VerifyException('puzzle type not specified')
+    diagonals = ('options' in parsed and parsed['options'] == 'diagonals') \
                 or ('diagonals' in parsed['puzzle'])
     if not diagonals: outdata['puzzle'] = 'sudoku'
     else: outdata['puzzle'] = 'sudoku,diagonals'
     # lambda to convert digits from input grids
     str2int = lambda s : 0 if s in '-.' else int(s)
     # problem grid
-    problem = [list(map(str2int,row)) for row in parsed['problem']]
-    parsed['problem'] = problem
+    try: problem = [list(map(str2int,row)) for row in parsed['problem']]
+    except: raise VerifyException('cannot convert problem grid to ints')
     outdata['problem'] = problem
-    # determine block sizes
-    if 'pattern' in parsed:
-        br = bc = int(parsed['pattern'])
-    elif 'patternx' in parsed:
-        br,bc = int(parsed['patterny']),int(parsed['patternx'])
-    elif 'size' in parsed:
-        size = int(parsed['size'])
-        br = bc = int(math.sqrt(size))
-        assert br*bc == size, 'N is not perfect square'
-    else:
-        pr,pc = parsed['rows'],parsed['cols']
-        assert pr == pc, 'not a square puzzle'
-        size = int(pr)
-        br = bc = int(math.sqrt(size))
-        assert br*bc == size, 'N is not perfect square'
+    try: # determine block sizes
+        if 'pattern' in parsed:
+            br = bc = int(parsed['pattern'])
+        elif 'patternx' in parsed:
+            br,bc = int(parsed['patterny']),int(parsed['patternx'])
+        elif 'size' in parsed:
+            size = int(parsed['size'])
+            br = bc = int(math.sqrt(size))
+            assert br*bc == size, 'N is not perfect square'
+        else:
+            pr,pc = parsed['rows'],parsed['cols']
+            assert pr == pc, 'not a square puzzle'
+            size = int(pr)
+            br = bc = int(math.sqrt(size))
+            assert br*bc == size, 'N is not perfect square'
+    except: raise VerifyException('cannot determine block sizes')
     outdata['blockrows'] = br
     outdata['blockcols'] = bc
     # solve puzzle
     solver = SolveSudoku(problem,(br,bc),diagonals)
-    assert len(solver.solutions) == 1, 'solutions != 1'
+    if len(solver.solutions) != 1: raise VerifyException('solutions != 1')
     if 'solution' in parsed:
-        solution = [list(map(str2int,row)) for row in parsed['solution']]
-        assert solution == solver.solutions[0], 'parsed solution is wrong'
+        try:
+            solution = [list(map(str2int,row)) for row in parsed['solution']]
+            assert solution == solver.solutions[0]
+        except: raise VerifyException('failed check against provided solution')
     outdata['solution'] = solver.solutions[0]
+    return outdata
+
+def convert_hakyuu(filename,lines):
+    '''
+    Hakyuu output format:
+    "puzzle": "hakyuu"
+    "problem": R*C array of integers [0,N] (N = max area size)
+    "areas": R*C array of integers
+    "solution": R*C array of integers [1,N] (N = max area size)
+    '''
+    parsed = None
+    try: parsed = puzzle_utils.COMMON_RCGRID.parse(lines)
+    except:
+        parsed = puzzle_utils.COMMON_SIZEGRID.parse(lines)
+    if parsed is None:
+        raise ParseException('ERROR: parsers failed')
+    outdata = dict()
+    outdata['__file__'] = filename
+    outdata['__data__'] = parsed
+    outdata['puzzle'] = 'hakyuu'
+    try:
+        if 'size' in parsed: R = C = int(parsed['size'])
+        else: R,C = int(parsed['rows']),int(parsed['cols'])
+    except: raise VerifyException('error parsing grid size')
+    str2int = lambda s : 0 if s in '-.' else int(s)
+    try:
+        problem = [list(map(str2int,row)) for row in parsed['problem']]
+        areas = [list(map(int,row)) for row in parsed['areas']]
+    except: raise VerifyException('error converting problem/area grid to ints')
+    outdata['problem'] = problem
+    outdata['areas'] = areas
+    # solve puzzle
+    solver = SolveHakyuu(problem,areas)
+    try:
+        solution = [list(map(int,row)) for row in parsed['solution']]
+        assert len(solver.solutions) == 1, 'solutions != 1'
+        assert solution == solver.solutions[0], 'parsed solution is wrong'
+    except: raise VerifyException('failed check against provided solution')
+    outdata['solution'] = solution
     return outdata
 
 if __name__ == '__main__': main(sys.argv[1],sys.argv[2],sys.argv[3])
