@@ -16,6 +16,9 @@
 
 from itertools import chain
 
+class ParseException(Exception):
+    ''' Thrown when an issue occurs with parsing a file '''
+
 class PuzzleParser:
     
     # data types defined that can be parsed
@@ -56,6 +59,8 @@ class PuzzleParser:
     def removeParam(self,name):
         assert name in self.params
         self.params.pop(name)
+    def setUseBegEnd(self,use_beg_end=True):
+        self.use_beg_end = use_beg_end
     
     # function to parse a file with this parser
     # file should be an iterable of lines
@@ -63,7 +68,7 @@ class PuzzleParser:
         result = dict()
         itr = iter(line.strip() for line in file)
         if self.use_beg_end and next(itr) != 'begin':
-            raise Exception('does not start with "begin" line')
+            raise ParseException('does not start with "begin" line')
         found_end = False
         while True:
             try:
@@ -75,9 +80,9 @@ class PuzzleParser:
             except StopIteration:
                 break
             if line[0] not in self.params:
-                raise Exception('unknown parameter: '+line[0])
+                raise ParseException('unknown parameter: '+line[0])
             if line[0] in result:
-                raise Exception('duplicate parameter: '+line[0])
+                raise ParseException('duplicate parameter: '+line[0])
             type_ = self.params[line[0]]
             if type_[0] == PuzzleParser.NONE:
                 result[line[0]] = None
@@ -92,15 +97,15 @@ class PuzzleParser:
                     if type(cols) == str:
                         cols = int(result[cols])
                 except:
-                    raise Exception('grid dimensions issue: '+line[0])
+                    raise ParseException('grid dimensions issue: '+line[0])
                 grid = []
                 for _ in range(rows):
                     try:
                         row = next(itr).split()
                     except:
-                        raise Exception('grid not enough rows: '+line[0])
+                        raise ParseException('grid not enough rows: '+line[0])
                     if len(row) != cols:
-                        raise Exception('grid row length incorrect: '+line[0])
+                        raise ParseException('grid row length wrong: '+line[0])
                     grid.append(row)
                 result[line[0]] = grid
             elif type_[0] == PuzzleParser.LONG_STRING:
@@ -118,6 +123,6 @@ class PuzzleParser:
                         break
                 result[line[0]] = longstr
         if self.use_beg_end and not found_end:
-            raise Exception('did not find "end" line')
+            raise ParseException('did not find "end" line')
         return result
 
